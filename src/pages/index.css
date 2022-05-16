@@ -1,0 +1,21 @@
+.content {
+    text-align: center;
+    padding: 50px
+}
+
+.title {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: auto;
+    width: 800px;
+}
+
+.disclaimer {
+    margin: auto;
+    display:inline-block;
+    padding: 5px 10px;
+    background: #ddd;
+    border-radius: 0.5vh;
+}
