@@ -7,15 +7,33 @@
     padding-bottom: 20px;
 }
 
-p {
+.subtitle {
+    color: #333;
+    font-size: large;
+    font-weight: bold;
+}
+
+.centerText {
     margin: auto;
-    width: 800px;
+    width: 80%;
+}
+
+.button {
+    margin: 20px;
 }
 
 .disclaimer {
-    margin: auto;
-    display:inline-block;
+    display: inline-block;
     padding: 5px 10px;
-    background: #ddd;
+    background: #eee;
     border-radius: 0.5vh;
+    font-size: medium;
+}
+
+.bottom {
+    position: fixed;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    margin: 0;
 }

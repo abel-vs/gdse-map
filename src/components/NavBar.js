@@ -5,7 +5,7 @@ class NavBar extends React.Component {
     state = {}
     render() {
         return (
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="dark" variant="dark" sticky="top">
                 <Container>
                     <Navbar.Brand href="/">
                         GDSE Culture Map
