@@ -1,51 +1,28 @@
-import React from "react";
-import {
-    ComposableMap,
-    Geographies,
-    Geography,
-    Annotation
-} from "react-simple-maps";
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+import ReactTooltip from "react-tooltip";
 
-const geoUrl =
-    "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
+import styles from "./map.css";
 
-const Map = () => {
+import MapChart from "../components/MapChart";
+
+function Map() {
+    const [content, setContent] = useState("");
     return (
-        <ComposableMap
-            projection="geoAzimuthalEqualArea"
-            projectionConfig={{
-                rotate: [-20.0, -52.0, 0],
-                scale: 700
-            }}
-        >
-            <Geographies
-                geography={geoUrl}
-                fill="#D6D6DA"
-                stroke="#FFFFFF"
-                strokeWidth={0.5}
-            >
-                {({ geographies }) =>
-                    geographies.map((geo) => (
-                        <Geography key={geo.rsmKey} geography={geo} />
-                    ))
-                }
-            </Geographies>
-            <Annotation
-                subject={[2.3522, 48.8566]}
-                dx={-90}
-                dy={-30}
-                connectorProps={{
-                    stroke: "#FF5533",
-                    strokeWidth: 3,
-                    strokeLinecap: "round"
-                }}
-            >
-                <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="#F53">
-                    {"Paris"}
-                </text>
-            </Annotation>
-        </ComposableMap>
+        <>
+            <div className={styles.flex_row}>
+                <div className={styles.explanation}>
+                    <h1>
+                        HEllO world
+                    </h1>
+                </div>
+                <div className={styles.map}>
+                    <MapChart setTooltipContent={setContent} />
+                    <ReactTooltip>{content}</ReactTooltip>
+                </div>
+            </div>
+        </>
     );
-};
+}
 
 export default Map;
