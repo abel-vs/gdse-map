@@ -1,23 +1,33 @@
 import React from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import './App.css';
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route}
+import { BrowserRouter as Router, Routes, Route }
   from 'react-router-dom';
 import Home from './pages';
 import About from './pages/about';
 import Map from './pages/map';
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 function App() {
   return (
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route exact path='/' exact element={<Home />} />
-          <Route path='/about' element={<About/>} />
-          <Route path='/map' element={<Map/>} />
-        </Routes>
-      </Router>
+    <Router>
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="">GDSE Culture Map</Navbar.Brand>
+          <Nav >
+            <Nav.Link href="">Home</Nav.Link>
+            <Nav.Link href="/map">Map</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/map' element={<Map />} />
+      </Routes>
+    </Router>
   );
 }
 
