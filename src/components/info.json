@@ -1,0 +1,32 @@
+{
+  "countries": [{
+    "name": "United States of America",
+    "summary": [
+      "American business culture is efficiency-oriented and money-driven",
+      " begin meetings with small talk on a light subject (weather, travel conditions, sports, e.g.)",
+      " and after small talk, Americans get straight to business, even when the meetings start with a disagreement."
+    ]
+  },{
+      "name": "United Kingdom",
+      "summary": [
+        "The British are known for their “tongue-in-cheek” and ironic humour",
+        " business culture is less hierarchical, and managers keep a marginal power distance",
+        " and requests are usually politely formulated, however managers’ suggestions should be followed as firm orders."
+      ]
+  },{
+    "name": "Germany",
+    "summary": [
+      "Germans are very formal, heavily regulated and extremely bureaucratic",
+      " punctuality is extremely important",
+      " and germans are direct to the point of bluntness."
+    ]
+  },{
+    "name": "Japan",
+    "summary": [
+      "Japanese companies have strict hierarchical structures, younger/newer employees are expected to show the utmost respect to their superiors",
+      " employees are expected to work for long hours and punctuality is deemed to be very important",
+      " there is also a strong group mentality and individualism is not often appreciated."
+    ]
+  }
+  ]
+}

@@ -1,0 +1,79 @@
+import React, { memo } from "react";
+import {
+    ZoomableGroup,
+    ComposableMap,
+    Geographies,
+    Geography
+} from "react-simple-maps";
+import list from "./info.json"
+
+const geoUrl =
+    "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
+
+const rounded = num => {
+    if (num > 1000000000) {
+        return Math.round(num / 100000000) / 10 + "Bn";
+    } else if (num > 1000000) {
+        return Math.round(num / 100000) / 10 + "M";
+    } else {
+        return Math.round(num / 100) / 10 + "K";
+    }
+};
+
+const findCountry = country => {
+    for (let i = 0; i < list.countries.length; i++) {
+        console.log(country);
+        if (country === list.countries[i].name) {
+            return list.countries[i].summary;
+        }
+    }
+    return "This countries information has not yet been added.";
+}
+
+const MapChart = ({ setTooltipContent }) => {
+    return (
+        <>
+            <ComposableMap data-tip="" projectionConfig={{ scale: 200 }}>
+                    <Geographies geography={geoUrl}>
+                        {({ geographies }) =>
+                            geographies.map(geo => (
+                                <>
+                                    <Geography
+                                        key={geo.rsmKey}
+                                        geography={geo}
+                                        onMouseEnter={() => {
+                                            const { NAME, POP_EST } = geo.properties;
+                                            setTooltipContent(`${NAME} — ${findCountry(NAME)}`);
+                                        }}
+                                        onMouseLeave={() => {
+                                            setTooltipContent("");
+                                        }}
+                                        style={{
+                                            default: {
+                                                fill: "#D6D6DA",
+                                                outline: "none"
+                                            },
+                                            hover: {
+                                                fill: "#F53",
+                                                outline: "none"
+                                            },
+                                            pressed: {
+                                                fill: "#E42",
+                                                outline: "none"
+                                            }
+                                        }}
+                                    />
+                                    {/*{console.log(geo.properties.NAME)}*/}
+                                </>
+                            ))
+                        }
+                    </Geographies>
+            </ComposableMap>
+            <div>
+
+            </div>
+        </>
+    );
+};
+
+export default memo(MapChart);

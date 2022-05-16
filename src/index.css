@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  font-family: 'Abel', cursive;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2{
+  font-weight: bold;
+  font-size: x-large;
+  padding-top: 20px;
+}
+
