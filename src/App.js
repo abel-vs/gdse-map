@@ -14,9 +14,9 @@ function App() {
     <Router>
       <NavBar/>
       <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/map' element={<Map />} />
+        <Route exact path='/gdse-map' element={<Home />} />
+        <Route exact path='/gdse-map/about' element={<About />} />
+        <Route exact path='/gdse-map/map' element={<Map />} />
       </Routes>
     </Router>
   );
