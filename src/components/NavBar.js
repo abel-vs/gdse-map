@@ -7,13 +7,13 @@ class NavBar extends React.Component {
         return (
             <Navbar bg="dark" variant="dark" sticky="top">
                 <Container>
-                    <Navbar.Brand href="/gdse-map">
+                    <Navbar.Brand href={process.env.PUBLIC_URL  + "/"}>
                         GDSE Culture Map
                     </Navbar.Brand>
                     <Nav >
-                        <Nav.Link href="/gdse-map">Home</Nav.Link>
-                        <Nav.Link href="/gdse-map/map">Map</Nav.Link>
-                        <Nav.Link href="/gdse-map/about">About</Nav.Link>
+                        <Nav.Link href={process.env.PUBLIC_URL  + "/"}>Home</Nav.Link>
+                        <Nav.Link href={process.env.PUBLIC_URL  + "/map"}>Map</Nav.Link>
+                        <Nav.Link href={process.env.PUBLIC_URL  + "/about"}>About</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>);
