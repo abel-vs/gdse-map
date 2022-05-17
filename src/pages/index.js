@@ -13,7 +13,7 @@ const Home = () => {
             We have compiled a summary of distinct differences between cultures, collected in a map such that users can quickly go through important cultural differences between them and their team members.
             We used three separate categories: organisational structure, meetings, and social work settings.
             </p>
-            <Button variant="primary" href='/map' className="button">Open Map</Button>
+            <Button variant="primary" href='/gdse-map/map' className="button">Open Map</Button>
         </div>
     );
 };

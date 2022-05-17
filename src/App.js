@@ -14,9 +14,9 @@ function App() {
     <Router>
       <NavBar/>
       <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/map' element={<Map />} />
+        <Route exact path={process.env.PUBLIC_URL + '/'} element={<Map />} />
+        <Route exact path={process.env.PUBLIC_URL + '/about'} element={<About />} />
+        <Route exact path={process.env.PUBLIC_URL + '/map'} element={<Home/>} />
       </Routes>
     </Router>
   );

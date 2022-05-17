@@ -17,7 +17,7 @@ function Map() {
                     </h1>
                     By hovering over a country, you can get a short summary of the important cultural aspects of this country.
                     <br />
-                    Currently supported countries: UK, Germany, USA, Japan.
+                    Currently supported countries: UK, Germany, USA.
                 </div>
                 <div className={styles.map}>
                     <MapChart setTooltipContent={setContent} />

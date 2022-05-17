@@ -1,6 +1,7 @@
 {
   "name": "gdse-map",
   "version": "0.1.0",
+  "homepage": "https://abel-vs.github.io/gdse-map",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -14,12 +15,15 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-simple-maps": "^2.3.0",
-    "reactstrap": "^9.0.2",
     "react-tooltip": "^4.2.21",
+    "reactjs-popup": "^2.0.5",
+    "reactstrap": "^9.0.2",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

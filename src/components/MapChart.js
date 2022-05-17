@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React, { memo, useState } from "react";
 import {
     ZoomableGroup,
     ComposableMap,
@@ -6,34 +6,64 @@ import {
     Geography
 } from "react-simple-maps";
 import list from "./info.json"
+import Popup from 'reactjs-popup';
+import {Button} from "react-bootstrap";
+import './MapChart.css'
 
 const geoUrl =
     "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
 
-const rounded = num => {
-    if (num > 1000000000) {
-        return Math.round(num / 100000000) / 10 + "Bn";
-    } else if (num > 1000000) {
-        return Math.round(num / 100000) / 10 + "M";
-    } else {
-        return Math.round(num / 100) / 10 + "K";
-    }
-};
-
-const findCountry = country => {
+const findId = country => {
     for (let i = 0; i < list.countries.length; i++) {
         console.log(country);
         if (country === list.countries[i].name) {
-            return list.countries[i].summary;
+            return i;
         }
     }
-    return "This countries information has not yet been added.";
+    return -1;
+
+}
+
+const getText = id => {
+    if (id === -1) {
+        return " — This countries information has not yet been added.";
+    } else {
+        return "";
+    }
+}
+
+const getInfoById = (country) => {
+    for (let i = 0; i < list.countries.length; i++) {
+        // console.log(country);
+        if (country === i) {
+            return  <div>
+                       <h3>Organisational structure etiquette</h3>
+                        <p>
+                            {list.countries[i].organisational}
+                        </p>
+                        <h3>Meeting etiquette</h3>
+                        <p>
+                            {list.countries[i].meetings}
+                        </p>
+                        <h3>Social work setting etiquette</h3>
+                        <p>
+                            {list.countries[i].social}
+                        </p>
+                    </div>;
+
+        }
+    }
+    return <h3>This country has not yet been analysed.</h3>;
 }
 
 const MapChart = ({ setTooltipContent }) => {
+    const [show, setShow] = useState(false);
+    const [country, setCountry] = useState(-1);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return (
         <>
-            <ComposableMap data-tip="" projectionConfig={{ scale: 200 }}>
+            <ComposableMap data-tip="" projectionConfig={{ scale: 100}}>
                     <Geographies geography={geoUrl}>
                         {({ geographies }) =>
                             geographies.map(geo => (
@@ -42,11 +72,20 @@ const MapChart = ({ setTooltipContent }) => {
                                         key={geo.rsmKey}
                                         geography={geo}
                                         onMouseEnter={() => {
-                                            const { NAME, POP_EST } = geo.properties;
-                                            setTooltipContent(`${NAME} — ${findCountry(NAME)}`);
+                                            const {NAME} = geo.properties;
+                                            const id = findId(country);
+                                            setTooltipContent(`${NAME} ${getText(id)}`);
                                         }}
                                         onMouseLeave={() => {
                                             setTooltipContent("");
+                                        }}
+                                        onClick={() => {
+                                            const {NAME} = geo.properties;
+                                            const id = findId(NAME);
+                                            setCountry(id);
+                                            if (id !== -1) {
+                                                handleShow();
+                                            }
                                         }}
                                         style={{
                                             default: {
@@ -70,7 +109,18 @@ const MapChart = ({ setTooltipContent }) => {
                     </Geographies>
             </ComposableMap>
             <div>
-
+                <Popup
+                    open={show}
+                    closeOnDocumentClick
+                    onClose={handleClose}
+                >
+                    <div>
+                        {getInfoById(country)}
+                        <Button className="btn btn-dark" onClick={handleClose}>
+                            &times;
+                        </Button>
+                    </div>
+                </Popup>
             </div>
         </>
     );
