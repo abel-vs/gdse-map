@@ -33,7 +33,7 @@ const findCountry = country => {
 const MapChart = ({ setTooltipContent }) => {
     return (
         <>
-            <ComposableMap data-tip="" projectionConfig={{ scale: 200 }}>
+            <ComposableMap data-tip="" projectionConfig={{ scale: 150 }}>
                     <Geographies geography={geoUrl}>
                         {({ geographies }) =>
                             geographies.map(geo => (
