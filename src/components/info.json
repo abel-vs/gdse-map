@@ -2,30 +2,86 @@
   "countries": [{
     "name": "United States of America",
     "summary": [
-      "American business culture is efficiency-oriented and money-driven",
-      " begin meetings with small talk on a light subject (weather, travel conditions, sports, e.g.)",
-      " and after small talk, Americans get straight to business, even when the meetings start with a disagreement."
+      "American business culture is efficiency-oriented and money-driven. ",
+      " begin meetings with small talk on a light subject (weather, travel conditions, sports, e.g.). ",
+      " and after small talk, Americans get straight to business, even when the meetings start with a disagreement. "
+    ],
+    "organisational": [
+      "American business culture is efficiency-oriented and money-driven. The culture of the country is based on the belief that it is hard word that drives success, not status or age. ",
+      "The hierarchical structure varies greatly depending on the region or company history. It is advised to learn the rank and titles of all the members you engage with inside an organization. ",
+      "Final decisions are usually made quickly by a person with chief authority, but anyone is welcome to express their opinion in meetings or during the decision making process. ",
+      "In general, it is not necessary to develop a personal relationship to establish a lasting and successful business relationship. "
+    ],
+    "meetings": [
+      "Punctuality and time management are fundamental values in US business culture, both in terms of time to start the meeting and time to terminate it. ",
+      "In situations where you know you will be late, even by a few minutes, you should tell your American partner about your delay and offer to postpone the meeting. ",
+      "During discussions, it is common to have small talk on a light subject (think weather, travel conditions, sports e.g) before talking business to create a comfortable environment. ",
+      "After small talk, Americans get straight to the point, even when expressing disagreement. ",
+      "Interaction, participation and concentration are important to prove your preparation and interest. ",
+      "Americans are rather uncomfortable with silence, which is usually avoided in business meetings. "
+    ],
+    "social": [
+      "Generally, Americans like to laugh and enjoy talking with people with a sense of humor. Jokes are usually welcome. ",
+      "Golf is a very popular sport, especially amongst business executives. Golf is normally a venue for business deals. ",
+      "Unlike other cultures, it’s perfectly acceptable to refuse food or drink. ",
+      "Business meetings that include lunch or dinner are not very common. "
     ]
   },{
-      "name": "United Kingdom",
-      "summary": [
-        "The British are known for their “tongue-in-cheek” and ironic humour",
-        " business culture is less hierarchical, and managers keep a marginal power distance",
-        " and requests are usually politely formulated, however managers’ suggestions should be followed as firm orders."
-      ]
+    "name": "United Kingdom",
+    "summary": [
+      "The British are known for their “tongue-in-cheek” and ironic humour",
+      " business culture is less hierarchical, and managers keep a marginal power distance",
+      " and requests are usually politely formulated, however managers’ suggestions should be followed as firm orders."
+    ],
+    "organisational": [
+      "The business culture is less hierarchical than most countries in mainland Europe, as managers keep a marginal power distance. ",
+      "Decisions are usually made from the top-down, nevertheless, they are not imposed abruptly but rather presented as guidelines or suggestions to follow. ",
+      "The status of managers might be hard to detect as they try to have a consensus before directing others. ",
+      "Directions are hinted at and instructions are usually polite requests such as “Perhaps we should try..”, however, managers’ suggestions are to be followed as though they were given as firm orders. "
+    ],
+    "meetings": [
+      "The British are known for their “tongue-in-cheek” and ironic humour, which they may use when doing business. ",
+      "Make the appointment for your meeting a few days in advance, and indicate what its objectives are beforehand. ",
+      "Punctuality and time management are extremely important in the UK. It is important to arrive on time or even slightly early. ",
+      "Always give the impression that everything is well managed and under control. The British like to feel relaxed about business, no matter what the situation might be. ",
+      "The British generally do not like to rush and are unlikely to commit to anything immediately, so don’t expect final decisions to be made during the first meetings. ",
+      "Although meetings are often inconclusive, everyone who attended is expected to leave with a specific task. "
+    ],
+    "social": [
+      "A pub is often an intermediate place between work and socialization where colleagues can rest their professional pretences and bond in a non-hierarchical setting. ",
+      "You may be invited to meetings at pub lunches or over dinner. In these settings, the host who offered the invitation pays the bill. ",
+      "You should not be offended when people address you with a seemingly overfamiliar name such as “love”, “pet”, “mate”, or “darling” – these terms vary across the UK and they have no deep or hidden meaning. ",
+      "Avoid explicit gestures and physical contact such as backslapping or hugging and maintain a sufficient distance as not to invade the personal space of anyone around you. "
+    ]
   },{
     "name": "Germany",
     "summary": [
       "Germans are very formal, heavily regulated and extremely bureaucratic",
       " punctuality is extremely important",
       " and germans are direct to the point of bluntness."
-    ]
-  },{
-    "name": "Japan",
-    "summary": [
-      "Japanese companies have strict hierarchical structures, younger/newer employees are expected to show the utmost respect to their superiors",
-      " employees are expected to work for long hours and punctuality is deemed to be very important",
-      " there is also a strong group mentality and individualism is not often appreciated."
+    ],
+    "organisational": [
+      "Germany is heavily regulated and extremely bureaucratic. ",
+      "A strict vertical hierarchy is established and respected, and the decision-making process is held at the top of the company. ",
+      "The Germans respect authority and subordinates rarely contradict or criticize their superiors publicly. ",
+      "Final decisions are translated into rigorous, comprehensive action steps that you can expect will be carried out to the letter. ",
+      "Germans like working in teams and collaborate quite well across hierarchical lines. The communication within the team is usually quite collegial. Praise should be given to the entire group as well as to individuals. ",
+      "Be careful not to be seen to be cutting corners or compromising rules and regulations when communicating with your German colleagues. "
+    ],
+    "meetings": [
+      "Meetings are generally formal.",
+      "Appointments are mandatory and should be made 1 to 2 weeks in advance. ",
+      "Punctuality is extremely important, and arriving at a meeting 15 minutes early is well thought of. ",
+      "In case of any delay, it is imperative to inform your colleagues in advance. ",
+      "Meetings adhere to strict agendas, including starting and ending times. ",
+      "It is considered extremely rude to cancel a meeting last minute. ",
+      "Business dress is understated, formal and conservative. Men should wear dark-coloured, conservative business suits. Women should wear either dark business suits or conservative dresses. "
+    ],
+    "social": [
+      "Gift-giving is uncommon in business meetings. If you’re visiting and considering a gift choose one that is small and of good quality, but not overly expensive. ",
+      "When invited to a German home, it is appropriate to bring a gift of flowers, wine, chocolates or a small gift that represents your home country or region. ",
+      "As a group, Germans are suspicious of hyperbole, promises that sound too good to be true, or displays of emotion. ",
+      "Germans will be direct to the point of bluntness. "
     ]
   }
   ]
