@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/gdse-map/static/css/main.548ede1d.css",
-    "main.js": "/gdse-map/static/js/main.62dd3a9b.js",
+    "main.css": "/gdse-map/static/css/main.c528a796.css",
+    "main.js": "/gdse-map/static/js/main.aaee57ff.js",
     "index.html": "/gdse-map/index.html",
-    "main.548ede1d.css.map": "/gdse-map/static/css/main.548ede1d.css.map",
-    "main.62dd3a9b.js.map": "/gdse-map/static/js/main.62dd3a9b.js.map"
+    "main.c528a796.css.map": "/gdse-map/static/css/main.c528a796.css.map",
+    "main.aaee57ff.js.map": "/gdse-map/static/js/main.aaee57ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.548ede1d.css",
-    "static/js/main.62dd3a9b.js"
+    "static/css/main.c528a796.css",
+    "static/js/main.aaee57ff.js"
   ]
 }
