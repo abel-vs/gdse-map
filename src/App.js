@@ -11,12 +11,12 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/gdse-map">
       <NavBar/>
       <Routes>
-        <Route exact path={process.env.PUBLIC_URL + '/'} element={<Map />} />
-        <Route exact path={process.env.PUBLIC_URL + '/about'} element={<About />} />
-        <Route exact path={process.env.PUBLIC_URL + '/map'} element={<Home/>} />
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/about' element={<About />} />
+        <Route exact path='/map' element={<Map/>} />
       </Routes>
     </Router>
   );
