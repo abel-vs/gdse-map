@@ -8,6 +8,7 @@ import {
 import list from "./info.json"
 import Popup from 'reactjs-popup';
 import {Button} from "react-bootstrap";
+import styles from './MapChart.module.css'
 import './MapChart.css'
 
 const geoUrl =
@@ -35,6 +36,7 @@ const getText = id => {
 const getInfoById = (country) => {
     for (let i = 0; i < list.countries.length; i++) {
         // console.log(country);
+        country = 1;
         if (country === i) {
             return  <div>
                        <h1>{list.countries[i].name}</h1>
@@ -69,7 +71,7 @@ const getInfoById = (country) => {
 }
 
 const MapChart = ({ setTooltipContent }) => {
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(true);
     const [country, setCountry] = useState(-1);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -128,9 +130,11 @@ const MapChart = ({ setTooltipContent }) => {
                 >
                     <div>
                         {getInfoById(country)}
-                        <Button className="btn btn-dark" onClick={handleClose}>
-                            &times;
-                        </Button>
+                        <div className={styles.center}>
+                            <Button variant="secondary" size="lg" onClick={handleClose}>
+                               Close
+                            </Button>
+                        </div>
                     </div>
                 </Popup>
             </div>

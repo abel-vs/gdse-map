@@ -1,75 +1,17 @@
-.app {
-    text-align: center;
-    padding-top: 2rem;
-}
-
 .popup-content {
     margin: auto;
+    border-radius: 20px;
     background: rgb(255, 255, 255);
-    width: 50%;
-    padding: 5px;
+    width: 80%;
+    padding: 30px;
 }
-
-.popup-arrow {
-    color: rgb(255, 255, 255);
-}[role='tooltip']
-
- .popup-content {
-     width: 200px;
-     box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
- }
 
 .popup-overlay {
     background: rgba(0, 0, 0, 0.5);
 }
 
-[data-popup='tooltip'].popup-overlay {
-    background: transparent;
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/*.modal_overlay {*/
-/*    position: fixed;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    z-index: 1040;*/
-/*    width: 100vw;*/
-/*    height: 100vh;*/
-/*    background-color: #000;*/
-/*    opacity: .5;*/
-/*}*/
-
-/*.modal_wrapper {*/
-/*    position: fixed;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    z-index: 1050;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    overflow-x: hidden;*/
-/*    overflow-y: auto;*/
-/*    outline: 0;*/
-/*}*/
-
-/*.modal {*/
-/*    z-index: 100;*/
-/*    background: white;*/
-/*    position: relative;*/
-/*    margin: 1.75rem auto;*/
-/*    border-radius: 3px;*/
-/*    max-width: 500px;*/
-/*    padding: 2rem;*/
-/*}*/
-
-/*.modal_header {*/
-/*    display: flex;*/
-/*    justify-content: flex-end;*/
-/*}*/
-
-/*.modal_close_button {*/
-/*    font-size: 1.4rem;*/
-/*    font-weight: 700;*/
-/*    line-height: 1;*/
-/*    color: #000;*/
-/*    opacity: .3;*/
-/*    cursor: pointer;*/
-/*    border: none;*/
-/*}*/
