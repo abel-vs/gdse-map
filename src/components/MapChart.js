@@ -14,9 +14,9 @@ import './MapChart.css'
 const geoUrl =
     "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
 
-const findId = country => {
+const findId = (country) => {
     for (let i = 0; i < list.countries.length; i++) {
-        console.log(country);
+        // console.log(country);
         if (country === list.countries[i].name) {
             return i;
         }
@@ -25,12 +25,22 @@ const findId = country => {
 
 }
 
-const getText = id => {
+const getText = (id) => {
     if (id === -1) {
         return " — This countries information has not yet been added.";
     } else {
         return "";
     }
+}
+
+const getSummary = (id) => {
+    for (let i = 0; i < list.countries.length; i++) {
+        // console.log(country);
+        if (id === i) {
+            return list.countries[i].summary
+        }
+    }
+    return ["No summary for this country was provided"]
 }
 
 const getInfoById = (country) => {
@@ -77,15 +87,15 @@ const isIncluded = (country) => {
     return names.includes(country);
 }
 
-const MapChart = ({ setTooltipContent }) => {
+const MapChart = ({ setTooltipContent, setCountrySummary }) => {
     const [show, setShow] = useState(false);
     const [country, setCountry] = useState(-1);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     return (
         <>
-            <div>
-                <ComposableMap data-tip="" projectionConfig={{ scale: 140}}>
+            <div className={styles.blue}>
+                <ComposableMap height={'400'} data-tip="" projectionConfig={{ scale: 140}}>
                     <Sphere stroke="#E4E5E6" strokeWidth={0.5} />
                     <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
                         <Geographies geography={geoUrl}>
@@ -97,11 +107,13 @@ const MapChart = ({ setTooltipContent }) => {
                                             geography={geo}
                                             onMouseEnter={() => {
                                                 const {NAME} = geo.properties;
-                                                const id = findId(country);
+                                                const id = findId(NAME);
                                                 setTooltipContent(`${NAME} ${getText(id)}`);
+                                                setCountrySummary(getSummary(id));
                                             }}
                                             onMouseLeave={() => {
                                                 setTooltipContent("");
+                                                setCountrySummary([""])
                                             }}
                                             onClick={() => {
                                                 const {NAME} = geo.properties;
@@ -111,16 +123,17 @@ const MapChart = ({ setTooltipContent }) => {
                                                     handleShow();
                                                 }
                                             }}
-                                            stroke={isIncluded(geo.properties.NAME)? "     #f68554   " : "#D6D6DA"}
-                                            strokeWidth={0.8}
+                                            fill={isIncluded(geo.properties.NAME)? "#f68554" : "#D6D6DA"}
+                                            stroke={"#FFF"}
+                                            strokeWidth={0.6}
                                             style={{
                                                 // default: {
-                                                //     fill: "#D6D6DA",
-                                                //     outline: "#000"
+                                                //     // fill: "#D6D6DA",
+                                                //     outline: "#FFF"
                                                 // },
                                                 hover: {
                                                     fill: "#F53",
-                                                    outline: "#000"
+                                                    // outline: "#000"
                                                 },
                                                 pressed: {
                                                     fill: "#E42",
