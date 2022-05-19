@@ -3,7 +3,7 @@ import {
     ZoomableGroup,
     ComposableMap,
     Geographies,
-    Geography
+    Geography, Graticule, Sphere
 } from "react-simple-maps";
 import list from "./info.json"
 import Popup from 'reactjs-popup';
@@ -36,7 +36,6 @@ const getText = id => {
 const getInfoById = (country) => {
     for (let i = 0; i < list.countries.length; i++) {
         // console.log(country);
-        country = 1;
         if (country === i) {
             return  <div>
                        <h1>{list.countries[i].name}</h1>
@@ -70,14 +69,24 @@ const getInfoById = (country) => {
     return <h3>This country has not yet been analysed.</h3>;
 }
 
+const isIncluded = (country) => {
+    let names = [];
+    for (let i = 0; i < list.countries.length; i++) {
+        names[i] = list.countries[i].name;
+    }
+    return names.includes(country);
+}
+
 const MapChart = ({ setTooltipContent }) => {
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(false);
     const [country, setCountry] = useState(-1);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     return (
         <>
-            <ComposableMap data-tip="" projectionConfig={{ scale: 100}}>
+            <ComposableMap data-tip="" projectionConfig={{ scale: 140}}>
+                <Sphere stroke="#E4E5E6" strokeWidth={0.5} />
+                <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
                     <Geographies geography={geoUrl}>
                         {({ geographies }) =>
                             geographies.map(geo => (
@@ -101,11 +110,12 @@ const MapChart = ({ setTooltipContent }) => {
                                                 handleShow();
                                             }
                                         }}
+                                        fill={isIncluded(geo.properties.NAME)? "#ffa733" : "#D6D6DA"}
                                         style={{
-                                            default: {
-                                                fill: "#D6D6DA",
-                                                outline: "none"
-                                            },
+                                            // default: {
+                                            //     fill: "#D6D6DA",
+                                            //     outline: "none"
+                                            // },
                                             hover: {
                                                 fill: "#F53",
                                                 outline: "none"
@@ -116,7 +126,7 @@ const MapChart = ({ setTooltipContent }) => {
                                             }
                                         }}
                                     />
-                                    {/*{console.log(geo.properties.NAME)}*/}
+                                    {/*{getNames()}*/}
                                 </>
                             ))
                         }
