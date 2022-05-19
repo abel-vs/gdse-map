@@ -37,18 +37,30 @@ const getInfoById = (country) => {
         // console.log(country);
         if (country === i) {
             return  <div>
+                       <h1>{list.countries[i].name}</h1>
+                            <ul>
+                                {list.countries[i].summary.map((x) =>
+                                    <li>{x}</li>
+                                )}
+                            </ul>
                        <h3>Organisational structure etiquette</h3>
-                        <p>
-                            {list.countries[i].organisational}
-                        </p>
+                            <ul>
+                                {list.countries[i].organisational.map((x) =>
+                                    <li>{x}</li>
+                                )}
+                            </ul>
                         <h3>Meeting etiquette</h3>
-                        <p>
-                            {list.countries[i].meetings}
-                        </p>
+                            <ul>
+                                {list.countries[i].meetings.map((x) =>
+                                    <li>{x}</li>
+                                )}
+                            </ul>
                         <h3>Social work setting etiquette</h3>
-                        <p>
-                            {list.countries[i].social}
-                        </p>
+                            <ul>
+                                {list.countries[i].social.map((x) =>
+                                    <li>{x}</li>
+                                )}
+                            </ul>
                     </div>;
 
         }
