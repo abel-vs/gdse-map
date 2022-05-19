@@ -1,17 +1,7 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 import ReactTooltip from "react-tooltip";
-
 import styles from "./map.module.css";
-
 import MapChart from "../components/MapChart";
-import list from "../components/info.json";
-
-const renderSummary = (summary) => {
-    for (let i = 0; i < summary.length; i++) {
-
-    }
-}
 
 function Map() {
     const [content, setContent] = useState("");
@@ -33,7 +23,7 @@ function Map() {
                         Summary
                     </h1>
                     <ul>
-                        {console.log(summary)}
+                        {/*{console.log(summary)}*/}
                         {summary.length > 1 ? summary.map((x) =>
                             <li>{x}</li>
                         ) : "Hover over a country to see a summary."}

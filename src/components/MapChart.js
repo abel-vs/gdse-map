@@ -1,6 +1,5 @@
 import React, { memo, useState } from "react";
 import {
-    ZoomableGroup,
     ComposableMap,
     Geographies,
     Geography, Graticule, Sphere
@@ -95,7 +94,7 @@ const MapChart = ({ setTooltipContent, setCountrySummary }) => {
     return (
         <>
             <div className={styles.blue}>
-                <ComposableMap height={'400'} data-tip="" projectionConfig={{ scale: 140}}>
+                <ComposableMap height={400} data-tip="" projectionConfig={{ scale: 140}}>
                     <Sphere stroke="#E4E5E6" strokeWidth={0.5} />
                     <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
                         <Geographies geography={geoUrl}>
