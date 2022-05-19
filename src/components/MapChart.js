@@ -84,54 +84,57 @@ const MapChart = ({ setTooltipContent }) => {
     const handleShow = () => setShow(true);
     return (
         <>
-            <ComposableMap data-tip="" projectionConfig={{ scale: 140}}>
-                <Sphere stroke="#E4E5E6" strokeWidth={0.5} />
-                <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
-                    <Geographies geography={geoUrl}>
-                        {({ geographies }) =>
-                            geographies.map(geo => (
-                                <>
-                                    <Geography
-                                        key={geo.rsmKey}
-                                        geography={geo}
-                                        onMouseEnter={() => {
-                                            const {NAME} = geo.properties;
-                                            const id = findId(country);
-                                            setTooltipContent(`${NAME} ${getText(id)}`);
-                                        }}
-                                        onMouseLeave={() => {
-                                            setTooltipContent("");
-                                        }}
-                                        onClick={() => {
-                                            const {NAME} = geo.properties;
-                                            const id = findId(NAME);
-                                            setCountry(id);
-                                            if (id !== -1) {
-                                                handleShow();
-                                            }
-                                        }}
-                                        fill={isIncluded(geo.properties.NAME)? "#ffa733" : "#D6D6DA"}
-                                        style={{
-                                            // default: {
-                                            //     fill: "#D6D6DA",
-                                            //     outline: "none"
-                                            // },
-                                            hover: {
-                                                fill: "#F53",
-                                                outline: "none"
-                                            },
-                                            pressed: {
-                                                fill: "#E42",
-                                                outline: "none"
-                                            }
-                                        }}
-                                    />
-                                    {/*{getNames()}*/}
-                                </>
-                            ))
-                        }
-                    </Geographies>
-            </ComposableMap>
+            <div>
+                <ComposableMap data-tip="" projectionConfig={{ scale: 140}}>
+                    <Sphere stroke="#E4E5E6" strokeWidth={0.5} />
+                    <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
+                        <Geographies geography={geoUrl}>
+                            {({ geographies }) =>
+                                geographies.map(geo => (
+                                    <>
+                                        <Geography
+                                            key={geo.rsmKey}
+                                            geography={geo}
+                                            onMouseEnter={() => {
+                                                const {NAME} = geo.properties;
+                                                const id = findId(country);
+                                                setTooltipContent(`${NAME} ${getText(id)}`);
+                                            }}
+                                            onMouseLeave={() => {
+                                                setTooltipContent("");
+                                            }}
+                                            onClick={() => {
+                                                const {NAME} = geo.properties;
+                                                const id = findId(NAME);
+                                                setCountry(id);
+                                                if (id !== -1) {
+                                                    handleShow();
+                                                }
+                                            }}
+                                            stroke={isIncluded(geo.properties.NAME)? "     #f68554   " : "#D6D6DA"}
+                                            strokeWidth={0.8}
+                                            style={{
+                                                // default: {
+                                                //     fill: "#D6D6DA",
+                                                //     outline: "#000"
+                                                // },
+                                                hover: {
+                                                    fill: "#F53",
+                                                    outline: "#000"
+                                                },
+                                                pressed: {
+                                                    fill: "#E42",
+                                                    outline: "none"
+                                                }
+                                            }}
+                                        />
+                                        {/*{getNames()}*/}
+                                    </>
+                                ))
+                            }
+                        </Geographies>
+                </ComposableMap>
+            </div>
             <div>
                 <Popup
                     open={show}
