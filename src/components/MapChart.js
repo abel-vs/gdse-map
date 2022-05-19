@@ -48,11 +48,11 @@ const getInfoById = (country) => {
         if (country === i) {
             return  <div>
                        <h1>{list.countries[i].name}</h1>
-                            <ul>
-                                {list.countries[i].summary.map((x) =>
-                                    <li>{x}</li>
-                                )}
-                            </ul>
+                            {/*<ul>*/}
+                            {/*    {list.countries[i].summary.map((x) =>*/}
+                            {/*        <li>{x}</li>*/}
+                            {/*    )}*/}
+                            {/*</ul>*/}
                        <h3>Organisational structure etiquette</h3>
                             <ul>
                                 {list.countries[i].organisational.map((x) =>
@@ -147,7 +147,7 @@ const MapChart = ({ setTooltipContent, setCountrySummary }) => {
                         </Geographies>
                 </ComposableMap>
             </div>
-            <div>
+            <div className={styles.blue}>
                 <Popup
                     open={show}
                     closeOnDocumentClick
