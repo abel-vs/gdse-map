@@ -4,9 +4,12 @@
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    position: relative;
+    top: 2vh;
+    left: -7vh;
 }
 
 .red {
@@ -18,6 +21,12 @@
 }
 
 .blue {
-    /*height: 100px;*/
-    /*background: rgba(0, 0, 255, 0.2);*/
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-y:scroll;
+    overflow-x: visible;
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
