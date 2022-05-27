@@ -1,6 +1,7 @@
 {
   "countries": [{
     "name": "United States of America",
+    "values": [40, 91, 62, 46, 26, 68],
     "summary": [
       "American business culture is efficiency-oriented and money-driven. ",
       " begin meetings with small talk on a light subject (weather, travel conditions, sports, e.g.). ",
@@ -28,6 +29,7 @@
     ]
   },{
     "name": "United Kingdom",
+    "values": [35, 89, 66, 35, 51, 69],
     "summary": [
       "The British are known for their “tongue-in-cheek” and ironic humour",
       " business culture is less hierarchical, and managers keep a marginal power distance",
@@ -55,6 +57,7 @@
     ]
   },{
     "name": "Germany",
+    "values": [35, 67, 66, 65, 83, 40],
     "summary": [
       "Germans are very formal, heavily regulated and extremely bureaucratic",
       " punctuality is extremely important",
