@@ -1,11 +1,12 @@
 import React from "react";
 import list from "../components/info.json";
+import styles from "./CountryRefs.module.css"
 
 const CountryRefs = () => {
     return (
-        <> {list.countries.map((country) =>
+        <div className={styles.body}> {list.countries.map((country) =>
                 <div>
-                    <h1>{country.name}</h1>
+                    <h2>{country.name}</h2>
                     <ol>
                         {country.refs.map((ref) =>
                             <li>{ref}</li>
@@ -13,7 +14,7 @@ const CountryRefs = () => {
                     </ol>
                 </div>
             )}
-        </>
+        </div>
     )
 }
 

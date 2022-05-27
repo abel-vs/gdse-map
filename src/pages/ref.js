@@ -1,12 +1,14 @@
 import React from "react";
 import CountryRefs from "../components/CountryRefs";
+import styles from "./ref.module.css";
 
 function Ref() {
     return (
-        <>
-            <h1>References</h1>
+        <div>
+            <h1 className={styles.header}>References</h1>
+            {/*<h2>About</h2>*/}
             <CountryRefs/>
-        </>
+        </div>
     )
 }
 
