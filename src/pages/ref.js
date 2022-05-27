@@ -1,9 +1,11 @@
 import React from "react";
+import CountryRefs from "../components/CountryRefs";
 
 function Ref() {
     return (
         <>
-            <h1>Hello ref</h1>
+            <h1>References</h1>
+            <CountryRefs/>
         </>
     )
 }
