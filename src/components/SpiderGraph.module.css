@@ -1,14 +1,17 @@
-.graph {
-    width: 30%;
+.graph_container {
     display: flex;
-    align-content: space-around;
+    justify-content: space-evenly;
+    /*background: rgba(0, 255, 0, 0.3);*/
+}
+
+.graph {
+    width: 40%;
     /*background: rgba(255, 0, 0, 0.3);*/
 }
 
 .dropdowns {
     display: flex;
     justify-content: space-evenly;
-    /*background: rgba(255, 0, 0, 0.3);*/
 }
 
 /*.dropA {*/

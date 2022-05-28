@@ -36,13 +36,18 @@ ChartJS.register(
 // };
 
 const options = {
+    responsive: true,
     scales: {
         r: {
             angleLines: {
                 display: false
             },
-            suggestedMin: 50,
-            suggestedMax: 100
+            max: 100,
+            min: 0,
+            width: 10,
+            height: 10,
+            // suggestedMin: 50,
+            // suggestedMax: 100
         }
     }
 };
@@ -50,6 +55,12 @@ const options = {
 const SpiderGraph = () => {
     const [countryA, setCountryA] = useState("Germany");
     const [countryB, setCountryB] = useState("United Kingdom");
+    const handleCountryA = (country) => {
+        return function() {setCountryA(country)}
+    };
+    const handleCountryB = (country) => {
+        return function() {setCountryB(country)}
+    };
     const data = {
     labels: ["Power Distance", "Individualism", "Masculinity", "Uncertainty Avoidance", "Long Term Orientation", "Indulgence"],
     datasets: [
@@ -71,7 +82,6 @@ const SpiderGraph = () => {
 };
     return (
         <div>
-            <h1>Hello world</h1>
             <div className={styles.dropdowns}>
                 <Dropdown>
                     <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
@@ -79,7 +89,7 @@ const SpiderGraph = () => {
                     </Dropdown.Toggle>
                     <Dropdown.Menu variant="dark">
                         {list.countries.map((x) =>
-                            <Dropdown.Item href="#/action-2">{x.name}</Dropdown.Item>
+                            <Dropdown.Item onClick={handleCountryA(x.name)} active={x.name === countryA}>{x.name}</Dropdown.Item>
                         )}
                     </Dropdown.Menu>
                 </Dropdown>
@@ -89,13 +99,15 @@ const SpiderGraph = () => {
                     </Dropdown.Toggle>
                     <Dropdown.Menu variant="dark">
                         {list.countries.map((x) =>
-                            <Dropdown.Item href="#/action-2">{x.name}</Dropdown.Item>
+                            <Dropdown.Item onClick={handleCountryB(x.name)} active={x.name === countryB}>{x.name}</Dropdown.Item>
                         )}
                     </Dropdown.Menu>
                 </Dropdown>
             </div>
-            <div className={styles.graph}>
-                <Radar data={data} options={options}/>
+            <div className={styles.graph_container}>
+                <div className={styles.graph}>
+                    <Radar data={data} options={options}/>
+                </div>
             </div>
         </div>
     )
