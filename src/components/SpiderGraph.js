@@ -44,12 +44,26 @@ const options = {
             },
             max: 100,
             min: 0,
-            // width: 10,
-            // height: 10,
-            // suggestedMin: 50,
-            // suggestedMax: 100
+            pointLabels: {
+                font: {
+                    size: 16
+                }
+            },
+        }
+
+    },
+    plugins: {
+        legend: {
+            labels: {
+                // This more specific font property overrides the global property
+                font: {
+                    size: 20
+                },
+                padding: 30
+            }
         }
     }
+
 };
 
 const SpiderGraph = () => {
@@ -67,16 +81,18 @@ const SpiderGraph = () => {
         {
             label: countryA,
             data: list.countries.find(x => x.name === countryA).values,
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor: 'rgba(255, 99, 132, 1)',
-            borderWidth: 1,
+            backgroundColor: 'rgba(255, 85, 51, 0.2)',
+            borderColor: 'rgba(255, 85, 51, 1)',
+            pointBackgroundColor: 'rgba(255, 85, 51, 1)',
+            borderWidth: 2,
         },
         {
             label: countryB,
             data: list.countries.find(x => x.name === countryB).values,
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgb(54, 162, 235)',
-            borderWidth: 1,
+            pointBackgroundColor: 'rgb(54, 162, 235)',
+            borderWidth: 2,
         },
     ],
 };

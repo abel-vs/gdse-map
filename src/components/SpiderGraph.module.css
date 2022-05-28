@@ -5,7 +5,7 @@
 }
 
 .graph_container {
-    width: 45%;
+    width: 49%;
     /*background: rgba(0, 0, 255, 0.3);*/
 }
 
@@ -24,7 +24,7 @@
 }
 
 .explanation {
-    width: 55%;
+    width: 51%;
     /*background: rgba(255, 0, 0, 0.3);*/
     padding: 30px 30px 0px 30px;
 }
