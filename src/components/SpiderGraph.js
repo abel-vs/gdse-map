@@ -57,7 +57,7 @@ const options = {
             labels: {
                 // This more specific font property overrides the global property
                 font: {
-                    size: 20
+                    size: 18
                 },
                 padding: 30
             }
@@ -97,13 +97,14 @@ const SpiderGraph = () => {
     ],
 };
     return (
-        <div className={styles.container_body}>
-            <div className={styles.explanation}>
-                <h3>Explanation</h3>
-                <h4>What is Lorem Ipsum?</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div className={styles.graph_container}>
+        // <div className={styles.container_body}>
+        //     <div className={styles.explanation}>
+        //         <h3>Explanation</h3>
+        //         <h4>What is Lorem Ipsum?</h4>
+        //         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        //     </div>
+        //     <div className={styles.graph_container}>
+        <>
                 <div className={styles.dropdowns}>
                     <Dropdown>
                         <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
@@ -129,8 +130,9 @@ const SpiderGraph = () => {
                 <div className={styles.graph}>
                     <Radar data={data} options={options}/>
                 </div>
-            </div>
-        </div>
+        {/*//     </div>*/}
+        </>
+        // </div>
     )
 }
 
