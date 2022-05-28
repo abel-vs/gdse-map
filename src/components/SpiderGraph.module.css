@@ -1,0 +1,6 @@
+.graph {
+    width: 30%;
+    display: flex;
+    align-content: space-around;
+    /*background: rgba(255, 0, 0, 0.3);*/
+}
