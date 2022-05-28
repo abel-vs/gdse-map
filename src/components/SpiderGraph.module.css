@@ -1,22 +1,10 @@
 .graph {
     display: flex;
     justify-content: space-evenly;
-    /*background: rgba(0, 255, 0, 0.3);*/
 }
 
 .dropdowns {
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
-    /*background: rgba(0, 0, 255, 0.3);*/
 }
-
-
-
-/*.dropA {*/
-/*    position: relative;*/
-/*}*/
-
-/*.dropB {*/
-/*    position: relative;*/
-/*}*/
