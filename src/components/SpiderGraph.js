@@ -44,8 +44,8 @@ const options = {
             },
             max: 100,
             min: 0,
-            width: 10,
-            height: 10,
+            // width: 10,
+            // height: 10,
             // suggestedMin: 50,
             // suggestedMax: 100
         }
@@ -81,30 +81,35 @@ const SpiderGraph = () => {
     ],
 };
     return (
-        <div>
-            <div className={styles.dropdowns}>
-                <Dropdown>
-                    <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
-                        Choose country A
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu variant="dark">
-                        {list.countries.map((x) =>
-                            <Dropdown.Item onClick={handleCountryA(x.name)} active={x.name === countryA}>{x.name}</Dropdown.Item>
-                        )}
-                    </Dropdown.Menu>
-                </Dropdown>
-                <Dropdown>
-                    <Dropdown.Toggle id="dropdown-button-dark-example2" variant="secondary">
-                        Choose country B
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu variant="dark">
-                        {list.countries.map((x) =>
-                            <Dropdown.Item onClick={handleCountryB(x.name)} active={x.name === countryB}>{x.name}</Dropdown.Item>
-                        )}
-                    </Dropdown.Menu>
-                </Dropdown>
+        <div className={styles.container_body}>
+            <div className={styles.explanation}>
+                <h3>Explanation</h3>
+                <h4>What is Lorem Ipsum?</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div className={styles.graph_container}>
+                <div className={styles.dropdowns}>
+                    <Dropdown>
+                        <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
+                            Choose country A
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu variant="dark">
+                            {list.countries.map((x) =>
+                                <Dropdown.Item onClick={handleCountryA(x.name)} active={x.name === countryA}>{x.name}</Dropdown.Item>
+                            )}
+                        </Dropdown.Menu>
+                    </Dropdown>
+                    <Dropdown>
+                        <Dropdown.Toggle id="dropdown-button-dark-example2" variant="secondary">
+                            Choose country B
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu variant="dark">
+                            {list.countries.map((x) =>
+                                <Dropdown.Item onClick={handleCountryB(x.name)} active={x.name === countryB}>{x.name}</Dropdown.Item>
+                            )}
+                        </Dropdown.Menu>
+                    </Dropdown>
+                </div>
                 <div className={styles.graph}>
                     <Radar data={data} options={options}/>
                 </div>
