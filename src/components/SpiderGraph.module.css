@@ -4,3 +4,17 @@
     align-content: space-around;
     /*background: rgba(255, 0, 0, 0.3);*/
 }
+
+.dropdowns {
+    display: flex;
+    justify-content: space-evenly;
+    /*background: rgba(255, 0, 0, 0.3);*/
+}
+
+/*.dropA {*/
+/*    position: relative;*/
+/*}*/
+
+/*.dropB {*/
+/*    position: relative;*/
+/*}*/
