@@ -16,6 +16,8 @@ const About = () => {
             <br />
             <div className='disclaimer'>
                 ❗️ The list of differences is not exhaustive, and the information is taken from various information resources that are mentioned on the web pages.
+                <br />
+                The information on this page is compiled by a group of students from the Netherlands. Readers should be aware of the Western perspective of the writers.
             </div>
 
             <h2>General Tips</h2>
