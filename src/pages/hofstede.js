@@ -13,6 +13,7 @@ function Ref() {
                     Geert Hofstede developed it at the end of the 1970s and it has become an internationally recognized standard for understanding cultural differences.
                     Hofstede studied people in more than 50 countries who worked for IBM.
                     The dimensions go from 0 to 100, where 0 indicates a low score and 100 indicates a high score.
+                    When the chart shows a large difference in indexes, it might be valuable to read the information on the dimension and what the impact might be.
 
                     <h4>Power Distance Index (PDI)</h4>
                     The Power Distance dimension refers to the degree of inequality between team members and whether the inequality is accepted between them.
