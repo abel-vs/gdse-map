@@ -95,9 +95,20 @@ function Ref() {
                         <li>Flattery is positive, so don't shy away from it.</li>
                     </ul>
 
-                    <h4>Indulgence</h4>
-
-
+                    <h4>Indulgence Versus Restraint (IVR)</h4>
+                    Indulgence refers to the amount of free gratification of basic and natural human drives that is allowed. It relates to enjoying life and having fun.
+                    A high IVR indicates that team members value personal happiness, by enjoying life and having fun.
+                    A low IVR indicates an emphasis on suppressing gratification and more controlled and rigid behaviour.
+                    <h5>Tips for working with team members with a high IVR</h5>
+                    <ul>
+                        <li>Emphasize flexible working and work-life balance</li>
+                        <li>Realize they don't take life too seriously</li>
+                    </ul>
+                    <h5>Tips for working with team members with a low IVR</h5>
+                    <ul>
+                        <li>Avoid making jokes in formal settings, instead be professional</li>
+                        <li>Only express negativity about the world/a pessimistic world view during informal meetings.</li>
+                    </ul>
 
                 </div>
                 <div className={styles.graph_container}>
