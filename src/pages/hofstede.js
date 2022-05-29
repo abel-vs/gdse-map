@@ -48,13 +48,55 @@ function Ref() {
                     </ul>
 
                     <h4>Masculinity Versus Femininity (MAS)</h4>
+                    Masculinity refers to the distribution of roles between men and women.
+                    A high MAS indicates that the roles of men and women don't overlap a lot, and men are expected to behave assertively.
+                    A low MAS indicates that there is a lot of overlap between roles, and modesty is a positive quality.
+                    <h5>Tips for working with team members with a high MAS</h5>
+                    <ul>
+                        <li>Remember that strong egos are attributed to status, just like money and achievements.</li>
+                        <li>The norm might be a long-hours culture, so be aware to the advantages and risks.</li>
+                        <li>People are motivated by targets, and they want to be able to show that they have achieved them.</li>
+                    </ul>
+                    <h5>Tips for working with team members with a low MAS</h5>
+                    <ul>
+                        <li>Success is achieved through collaboration, negotiation and input from all levels.</li>
+                        <li>Don't use an "old-boys club" mentality.</li>
+                        <li>Respect work-life balance, and offer workplace flexibility.</li>
+                    </ul>
 
+                    <h4>Uncertainty Avoidance Index (UAI)</h4>
+                    Uncertainty Avoidance refers to how well team members can deal with anxiety.
+                    A high UAI indicates that team members want to plan as much as possible. They want to have control over their lives.
+                    A low UAI indicates that team members are more relaxed, inclusive or open to change.
+                    <h5>Tips for working with team members with a high UAI</h5>
+                    <ul>
+                        <li>Be clear about your expectations and goals.</li>
+                        <li>Respect and recognize that there might be unspoken rules.</li>
+                        <li>Don't be offended if team members show anger or emotions.</li>
+                    </ul>
+                    <h5>Tips for working with team members with a low UAI</h5>
+                    <ul>
+                        <li>Ensure that people remain productive and focussed, but don't enforce too much structure</li>
+                        <li>Do not show off your knowledge or experience, respect is earned by those who can cope under all circumstances</li>
+                    </ul>
 
-                    <h4>Uncertainty Avoidance</h4>
-
-                    <h4>Long Term Orientation</h4>
+                    <h4>Long Term Orientation Versus Short Term Orientation</h4>
+                    Long Term Orientation refers to the time horizon team members display.
+                    A high Long Term Orientation indicates that team members are pragmatic, modest and more thrifty.
+                    A low Long Term Orientation indicates that team members tend to value principles, consistency and truth, and usually they are more likely to be religious and nationalistic.
+                    <h5>Tips for working with team members with a high Long Term Orientation</h5>
+                    <ul>
+                        <li>Behave in a modest way.</li>
+                        <li>Do not talk too much about yourself.</li>
+                    </ul>
+                    <h5>Tips for working with team members with a low Long Term Orientation</h5>
+                    <ul>
+                        <li>Sell yourself to be taken seriously.</li>
+                        <li>Flattery is positive, so don't shy away from it.</li>
+                    </ul>
 
                     <h4>Indulgence</h4>
+
 
 
                 </div>
