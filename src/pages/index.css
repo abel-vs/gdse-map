@@ -4,7 +4,11 @@
 }
 
 .title {
-    padding-bottom: 20px;
+    /* padding: 20px; */
+    font: weight 2000px;
+    ;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .subtitle {

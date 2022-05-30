@@ -1,5 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import styles from './NavBar.module.css'
+import Gradient from 'rgt'
 
 class NavBar extends React.Component {
     state = {}
@@ -8,7 +10,8 @@ class NavBar extends React.Component {
             <Navbar bg="dark" variant="dark" sticky="top">
                 <Container>
                     <Navbar.Brand href={process.env.PUBLIC_URL  + "/"}>
-                        GDSE Culture Map
+                        <img src="earth.png" alt="logo" className={styles.logo} />
+                            GDSE Culture Map
                     </Navbar.Brand>
                     <Nav >
                         <Nav.Link href={process.env.PUBLIC_URL  + "/"}>Home</Nav.Link>
