@@ -9,7 +9,7 @@ function Ref() {
             <div className={styles.container_body}>
                 <div className={styles.explanation}>
                     <h3>Explanation</h3>
-                    The Hofstede model contains six dimensions>
+                    The Hofstede model contains six dimensions
                     Geert Hofstede developed it at the end of the 1970s and it has become an internationally recognized standard for understanding cultural differences.
                     Hofstede studied people in more than 50 countries who worked for IBM.
                     The dimensions go from 0 to 100, where 0 indicates a low score and 100 indicates a high score.

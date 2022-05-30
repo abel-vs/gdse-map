@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-* {
+html, body {
   font-family: 'Abel', cursive;
 }
 
