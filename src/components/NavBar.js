@@ -14,6 +14,7 @@ class NavBar extends React.Component {
                         <Nav.Link href={process.env.PUBLIC_URL  + "/"}>Home</Nav.Link>
                         <Nav.Link href={process.env.PUBLIC_URL  + "/map"}>Map</Nav.Link>
                         <Nav.Link href={process.env.PUBLIC_URL  + "/about"}>About</Nav.Link>
+                        <Nav.Link href={process.env.PUBLIC_URL  + "/references"}>References</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>);
