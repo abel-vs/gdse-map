@@ -1,5 +1,34 @@
 {
   "countries": [{
+    "name": "Brazil",
+    "values": [69, 38, 49, 76, 44, 59],
+    "summary": [
+      "Brazilians do business with people, not with companies. Put time and effort into personal relations.",
+      "Brazilians are flexible with time, it is advisable to be on time and not to show frustration or impatience with delays.",
+      "Lots of physical contact whilst talking is common."
+    ],
+    "organisational": [
+      "The official language is Portuguese, present documents in Portuguese and English.",
+      "Brazil has a vertical hierarchical business structure, the highest-ranking member will make the decision.",
+      "Brazilians do business with people, not with companies. Put time and effort into personal relations."
+    ],
+    "meetings": [
+      "Brazilians are flexible with time, it is advisable to be on time and not to show frustration or impatience with delays.",
+      "First contact will be more successful when introduced by a mutual acquaintance.",
+      "When doing a presentation, keep it short, and expect lots of interruptions and questions."
+    ],
+    "social": [
+      "During a conversation, a lot of touching of the arms and back is common.",
+      "Avoid the topics of politics, poverty, religion and Argentina.",
+      "Openness and friendliness are expected.",
+      "The line between personal and professional relations is blurry.",
+      "When dining, whoever invited pays, however, the other party is expected to offer to pay."
+    ],
+    "refs": [
+      "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-brazil/",
+      "https://santandertrade.com/en/portal/establish-overseas/brazil/business-practices"
+    ]
+  },{
     "name": "United States of America",
     "values": [40, 91, 62, 46, 26, 68],
     "summary": [
