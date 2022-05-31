@@ -1,25 +1,26 @@
 import React, { useState } from "react";
 import ReactTooltip from "react-tooltip";
-import styles from "./map.module.css";
 import MapChart from "../components/MapChart";
+import {Row, Col} from "react-bootstrap";
 
 function Map() {
     const [content, setContent] = useState("");
     const [summary, setSummary] = useState([""]);
     return (
-        <>
-            <div className={styles.header_container}>
-                <div className={styles.header}>
+        <div className="content">
+            <Row>
+                <Col>
                     <h1>
                         Welcome to the map!
                     </h1>
                     Hover over a country to get a short summary of the important cultural aspects of this country.
+                    <br />
                     Click on the country for more detailed information.
                     <br />
-                    Currently supported countries are: 
-                    {}
-                </div>
-                <div className={styles.summary}>
+                    Currently supported countries are:
+                    { }
+                </Col>
+                <Col>
                     <h1>
                         Summary
                     </h1>
@@ -28,13 +29,13 @@ function Map() {
                             {summary.map((x) => <li>{x}</li>)}
                         </ul>
                         : "Hover over a country to see a summary."}
-                </div>
-            </div>
-            <div className={styles.map_container}>
+                </Col>
+            </Row>
+            <div>
                 <MapChart setTooltipContent={setContent} setCountrySummary={setSummary} />
                 <ReactTooltip>{content}</ReactTooltip>
             </div>
-        </>
+        </div>
     );
 }
 

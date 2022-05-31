@@ -5,9 +5,9 @@ import { Row, Col } from "react-bootstrap"
 function Ref() {
     return (
         <div className="content">
-            <h1>Hofstede Cultural dimensions</h1>
             <Row>
                 <Col>
+                    <h1>Hofstede Cultural dimensions</h1>
                     <h2>Explanation</h2>
                     The Hofstede model contains six dimensions
                     Geert Hofstede developed it at the end of the 1970s and it has become an internationally recognized standard for understanding cultural differences.
