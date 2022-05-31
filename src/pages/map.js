@@ -13,27 +13,27 @@ function Map() {
                     <h1>
                         Welcome to the map!
                     </h1>
-                    By hovering over a country, you can get a short summary of the important cultural aspects of this country.
-                    When you click on the country more detailed information will be displayed.
+                    Hover over a country to get a short summary of the important cultural aspects of this country.
+                    Click on the country for more detailed information.
                     <br />
-                    Currently supported countries are outlined: UK, Germany, USA.
+                    Currently supported countries are: 
+                    {}
                 </div>
                 <div className={styles.summary}>
                     <h1>
                         Summary
                     </h1>
-                    <ul>
-                        {/*{console.log(summary)}*/}
-                        {summary.length > 1 ? summary.map((x) =>
-                            <li>{x}</li>
-                        ) : "Hover over a country to see a summary."}
-                    </ul>
+                    {summary.length > 1 ?
+                        <ul>
+                            {summary.map((x) => <li>{x}</li>)}
+                        </ul>
+                        : "Hover over a country to see a summary."}
                 </div>
             </div>
-                <div className={styles.map_container}>
-                    <MapChart setTooltipContent={setContent} setCountrySummary={setSummary} />
-                    <ReactTooltip>{content}</ReactTooltip>
-                </div>
+            <div className={styles.map_container}>
+                <MapChart setTooltipContent={setContent} setCountrySummary={setSummary} />
+                <ReactTooltip>{content}</ReactTooltip>
+            </div>
         </>
     );
 }

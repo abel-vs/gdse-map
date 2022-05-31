@@ -15,13 +15,13 @@ const Home = () => {
                     </h1>
                     <p className='subtitle'>An interactive map for comparing cultural differences regarding globally distributed software engineering! </p>
                     <div>
-                        <a href='/gdse-map/map' className="button" size="md" variant='blue'>Explore Culture Map</a>
+                        <a href='/gdse-map/map' className="button">Explore Culture Map</a>
                     </div>
                     <div>
-                        <a href='/gdse-map/hofstede' className="button" size="md" variant="green">Compare Cultural Dimensions</a>
+                        <a href='/gdse-map/hofstede' className="button">Compare Cultural Dimensions</a>
                     </div>
                     <div>
-                        <a href='/gdse-map/about' className="button" size="md">Learn more about GDSE</a>
+                        <a href='/gdse-map/about' className="button">Learn more about GDSE</a>
                     </div>
                 </Col>
                 <Col>
