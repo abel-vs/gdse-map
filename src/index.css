@@ -12,12 +12,13 @@ code {
     monospace;
 }
 
-* {
+html, body {
   font-family: 'Abel', cursive;
 }
 
 h1 {
   font-weight: bold;
+  font-size: xx-large;
 }
 
 h2{
@@ -26,3 +27,13 @@ h2{
   padding-top: 20px;
 }
 
+h3{
+  font-weight: bold;
+  font-size: large;
+  padding-top: 10px;
+}
+
+h4{
+  font-weight: bold;
+  font-size: medium;
+}

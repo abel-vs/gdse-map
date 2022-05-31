@@ -1,9 +1,8 @@
 import React from "react";
-import "./about.css";
 
 const About = () => {
     return (
-        <div className="contentPadding">
+        <div className="content">
             <h1>
                 About
             </h1>

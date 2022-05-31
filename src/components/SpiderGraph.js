@@ -67,9 +67,9 @@ const SpiderGraph = () => {
         {
             label: countryA,
             data: list.countries.find(x => x.name === countryA).values,
-            backgroundColor: 'rgba(255, 85, 51, 0.2)',
-            borderColor: 'rgba(255, 85, 51, 1)',
-            pointBackgroundColor: 'rgba(255, 85, 51, 1)',
+            backgroundColor: 'rgba(95, 203, 143, 0.2)',
+            borderColor: 'rgba(95, 203, 143, 1)',
+            pointBackgroundColor: 'rgba(95, 203, 143, 1)',
             borderWidth: 2,
         },
         {

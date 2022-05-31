@@ -1,0 +1,10 @@
+.logo{
+    margin-right: 10px;
+    margin-bottom: 4px;
+    height: 25px;
+    width: 25px;
+}
+
+.selected{
+    color: white !important;
+}
