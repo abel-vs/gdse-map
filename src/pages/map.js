@@ -8,13 +8,12 @@ function Map() {
     const [summary, setSummary] = useState([""]);
     return (
         <div className="content">
-            <Row>
+            <Row style={{height: "150px"}}>
                 <Col>
                     <h1>
                         Welcome to the map!
                     </h1>
                     Hover over a country to get a short summary of the important cultural aspects of this country.
-                    <br />
                     Click on the country for more detailed information.
                     <br />
                     Currently supported countries are:
