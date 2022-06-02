@@ -86,14 +86,14 @@ const isIncluded = (country) => {
 }
 
 const MapChart = ({ setTooltipContent, setCountrySummary }) => {
-    const [show, setShow] = useState(true);
-    const [country, setCountry] = useState(0);
+    const [show, setShow] = useState(false);
+    const [country, setCountry] = useState(-1);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     return (
         <>
             <div>
-                <ComposableMap height={400} data-tip="" projectionConfig={{ scale: 140}}>
+                <ComposableMap height={340} data-tip="" projectionConfig={{ scale: 129}}>
                     <Sphere stroke="#E4E5E6" strokeWidth={0.5} />
                     <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
                     <Geographies geography={geoUrl}>
