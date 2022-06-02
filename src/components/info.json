@@ -193,6 +193,35 @@
       "https://commisceo-global.com/resources/country-guides/germany-guide",
       "https://www.commisceo-global.com/resources/management-guides/germany-management-guide"
     ]
+  },{
+    "name": "Netherlands",
+    "values": [38, 80, 14, 53, 67, 68],
+    "summary": [
+      "Punctuality is important. If you are running late, call your team members to let them know and give them the reason why you’re being late. ",
+      "Business relationships are formal. Business is strictly professional and does not hold a relation to one’s personal life.",
+      "Inspired by “the Polder Model” - the Dutch have a slow decision-making process where all parties have to be heard, and everyone is entitled to an opinion."
+    ],
+    "organisational": [
+      "Business relationships are formal. Business is strictly professional and does not hold a relation to one’s personal life.",
+      "In the Netherlands, hierarchy exists to serve organisational effectiveness. Managers are not necessarily seen as superiors, but rather as employees with different responsibilities.",
+      "Inspired by “the Polder Model” - the Dutch have a slow decision-making process where all parties have to be heard, and everyone is entitled to an opinion."
+    ],
+    "meetings": [
+      "Punctuality is important. If you are running late, call your team members to let them know and give them the reason why you’re being late.",
+      "A small amount of small talk may begin the meeting, but expect the Dutch to turn to business very quickly.",
+      "The Dutch are very direct, do not take offence to this.",
+      "When entering a meeting room with new people, shake everyone's hand and introduce yourself with your first name."
+    ],
+    "social": [
+      "The Dutch sometimes prefer a lunch meeting as opposed to meetings in the office, since lunch is a necessity anyway.",
+      "After-hours drinks are not appropriate for detailed discussions, since the Dutch want to go home. It is a nice way to build a personal connection with your colleagues.",
+      "Taking colleagues out for dinner is a private event, and will therefore rarely happen in Dutch business culture."
+    ],
+    "refs": [
+      "https://culturalatlas.sbs.com.au/dutch-culture/dutch-culture-business-culture",
+      "https://businessculture.org/western-europe/business-culture-in-netherlands/business-etiquette-in-netherlands/",
+      "https://www.expatica.com/nl/working/employment-basics/dutch-business-culture-102490/"
+    ]
   }
   ]
 }
