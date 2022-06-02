@@ -109,14 +109,6 @@ const SpiderGraph = () => {
             <div className={styles.graph}>
                 <Radar data={data} options={options}/>
             </div>
-            <div>
-                <p>
-                    Data produced by: Hofstede Insights. (2022).
-                    <em>Compare countries</em>.
-                    Retrieved June 2, 2022, from
-                    <a href="https://www.hofstede-insights.com/fi/product/compare-countries/">https://www.hofstede-insights.com/fi/product/compare-countries/</a>
-                </p>
-            </div>
         </>
     )
 }
