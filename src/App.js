@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Routes, Route }
 import Home from './pages';
 import About from './pages/about';
 import Map from './pages/map';
+import Ref from './pages/ref';
+import Hofstede from './pages/hofstede';
 import 'bootstrap/dist/css/bootstrap.css';
 import NavBar from './components/NavBar';
 
@@ -17,6 +19,8 @@ function App() {
         <Route exact path='/' element={<Home />} />
         <Route exact path='/about' element={<About />} />
         <Route exact path='/map' element={<Map/>} />
+        <Route exact path='/references' element={<Ref/>} />
+        <Route exact path='/hofstede' element={<Hofstede/>} />
       </Routes>
     </Router>
   );

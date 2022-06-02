@@ -1,9 +1,8 @@
 import React from "react";
-import "./about.css";
 
 const About = () => {
     return (
-        <div className="contentPadding">
+        <div className="content">
             <h1>
                 About
             </h1>
@@ -16,6 +15,8 @@ const About = () => {
             <br />
             <div className='disclaimer'>
                 ❗️ The list of differences is not exhaustive, and the information is taken from various information resources that are mentioned on the web pages.
+                <br />
+                The information on this page is compiled by a group of students from the Netherlands. Readers should be aware of the Western perspective of the writers.
             </div>
 
             <h2>General Tips</h2>
@@ -54,6 +55,19 @@ const About = () => {
                 <li>One person recaps the key points orally, with the task rotating from each team member to another.</li>
                 <li>Each person would summarize orally what he would do next.</li>
                 <li>One person would send out a written recap, again on a rotating basis.</li>
+            </ul>
+
+            <h2>Time management</h2>
+
+            Time management is an essential aspect of working with a team in a distributed setting.
+            <br />
+            Time management entails managing different time zones, and managing how much time every team member is spending on tasks.
+            <br />
+            Tips to optimize time management in a distributed team:
+            <ul>
+                <li>Make all team members use a time management app, such as Toggl or Clockify. This will help you keep track of progress and productivity, even when dealing with team members in different time zones.</li>
+                <li>Encourage flexible working hours. This way, team members can take time for their personal life, and still have face-to-face meetings with a team in a different time zone.</li>
+                <li>Allow for synchronous and asynchronous communication. Face-to-face and in-person is always preferred, however when dealing with different time zones, one has to use asynchronous communication as well.</li>
             </ul>
         </div>
     );

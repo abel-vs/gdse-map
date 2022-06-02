@@ -6,7 +6,7 @@ import {
 } from "react-simple-maps";
 import list from "./info.json"
 import Popup from 'reactjs-popup';
-import {Button} from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import styles from './MapChart.module.css'
 import './MapChart.css'
 
@@ -46,32 +46,32 @@ const getInfoById = (country) => {
     for (let i = 0; i < list.countries.length; i++) {
         // console.log(country);
         if (country === i) {
-            return  <div>
-                       <h1>{list.countries[i].name}</h1>
-                            <ul>
-                                {list.countries[i].summary.map((x) =>
-                                    <li>{x}</li>
-                                )}
-                            </ul>
-                       <h3>Organisational structure etiquette</h3>
-                            <ul>
-                                {list.countries[i].organisational.map((x) =>
-                                    <li>{x}</li>
-                                )}
-                            </ul>
-                        <h3>Meeting etiquette</h3>
-                            <ul>
-                                {list.countries[i].meetings.map((x) =>
-                                    <li>{x}</li>
-                                )}
-                            </ul>
-                        <h3>Social work setting etiquette</h3>
-                            <ul>
-                                {list.countries[i].social.map((x) =>
-                                    <li>{x}</li>
-                                )}
-                            </ul>
-                    </div>;
+            return <div>
+                <h1>{list.countries[i].name}</h1>
+                <ul>
+                    {list.countries[i].summary.map((x) =>
+                        <li>{x}</li>
+                    )}
+                </ul>
+                <h3>Organisational structure etiquette</h3>
+                <ul>
+                    {list.countries[i].organisational.map((x) =>
+                        <li>{x}</li>
+                    )}
+                </ul>
+                <h3>Meeting etiquette</h3>
+                <ul>
+                    {list.countries[i].meetings.map((x) =>
+                        <li>{x}</li>
+                    )}
+                </ul>
+                <h3>Social work setting etiquette</h3>
+                <ul>
+                    {list.countries[i].social.map((x) =>
+                        <li>{x}</li>
+                    )}
+                </ul>
+            </div>;
 
         }
     }
@@ -97,54 +97,51 @@ const MapChart = ({ setTooltipContent, setCountrySummary }) => {
                 <ComposableMap height={400} data-tip="" projectionConfig={{ scale: 140}}>
                     <Sphere stroke="#E4E5E6" strokeWidth={0.5} />
                     <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
-                        <Geographies geography={geoUrl}>
-                            {({ geographies }) =>
-                                geographies.map(geo => (
-                                    <>
-                                        <Geography
-                                            key={geo.rsmKey}
-                                            geography={geo}
-                                            onMouseEnter={() => {
-                                                const {NAME} = geo.properties;
-                                                const id = findId(NAME);
-                                                setTooltipContent(`${NAME} ${getText(id)}`);
-                                                setCountrySummary(getSummary(id));
-                                            }}
-                                            onMouseLeave={() => {
-                                                setTooltipContent("");
-                                                setCountrySummary([""])
-                                            }}
-                                            onClick={() => {
-                                                const {NAME} = geo.properties;
-                                                const id = findId(NAME);
-                                                setCountry(id);
-                                                if (id !== -1) {
-                                                    handleShow();
-                                                }
-                                            }}
-                                            fill={isIncluded(geo.properties.NAME)? "#f68554" : "#D6D6DA"}
-                                            stroke={"#FFF"}
-                                            strokeWidth={0.6}
-                                            style={{
-                                                // default: {
-                                                //     // fill: "#D6D6DA",
-                                                //     outline: "#FFF"
-                                                // },
-                                                hover: {
-                                                    fill: "#F53",
-                                                    // outline: "#000"
-                                                },
-                                                pressed: {
-                                                    fill: "#E42",
-                                                    outline: "none"
-                                                }
-                                            }}
-                                        />
-                                        {/*{getNames()}*/}
-                                    </>
-                                ))
-                            }
-                        </Geographies>
+                    <Geographies geography={geoUrl}>
+                        {({ geographies }) =>
+                            geographies.map(geo => (
+                                <>
+                                    <Geography
+                                        key={geo.rsmKey}
+                                        geography={geo}
+                                        onMouseEnter={() => {
+                                            const { NAME } = geo.properties;
+                                            const id = findId(NAME);
+                                            setTooltipContent(`${NAME} ${getText(id)}`);
+                                            setCountrySummary(getSummary(id));
+                                        }}
+                                        onMouseLeave={() => {
+                                            setTooltipContent("");
+                                            setCountrySummary([""])
+                                        }}
+                                        onClick={() => {
+                                            const { NAME } = geo.properties;
+                                            const id = findId(NAME);
+                                            setCountry(id);
+                                            if (id !== -1) {
+                                                handleShow();
+                                            }
+                                        }}
+                                        fill={isIncluded(geo.properties.NAME) ? "#5FCB8F" : "#D6D6DA"}
+                                        stroke={"#FFF"}
+                                        strokeWidth={0.6}
+                                        style={isIncluded(geo.properties.NAME) ? {
+                                            default: { outline: "none" },
+                                            hover: { fill: "#47a16f", outline: "none" },
+                                            pressed: { fill: "#47a16f", outline: "none" }
+                                        } :
+                                            {
+                                                default: { outline: "none" },
+                                                hover: { fill: "#aaa", outline: "none" },
+                                                pressed: { outline: "none" }
+                                            }
+                                        }
+                                    />
+                                    {/*{getNames()}*/}
+                                </>
+                            ))
+                        }
+                    </Geographies>
                 </ComposableMap>
             </div>
             <div>
@@ -158,7 +155,7 @@ const MapChart = ({ setTooltipContent, setCountrySummary }) => {
                         {getInfoById(country)}
                         <div className={styles.center}>
                             <Button variant="secondary" size="lg" onClick={handleClose}>
-                               Close
+                                Close
                             </Button>
                         </div>
                     </div>

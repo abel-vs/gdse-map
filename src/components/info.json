@@ -1,10 +1,73 @@
 {
   "countries": [{
+    "name": "Brazil",
+    "values": [69, 38, 49, 76, 44, 59],
+    "summary": [
+      "Brazilians do business with people, not with companies. Put time and effort into personal relations.",
+      "Brazilians are flexible with time, it is advisable to be on time and not to show frustration or impatience with delays.",
+      "Lots of physical contact whilst talking is common."
+    ],
+    "organisational": [
+      "The official language is Portuguese, present documents in Portuguese and English.",
+      "Brazil has a vertical hierarchical business structure, the highest-ranking member will make the decision.",
+      "Brazilians do business with people, not with companies. Put time and effort into personal relations."
+    ],
+    "meetings": [
+      "Brazilians are flexible with time, it is advisable to be on time and not to show frustration or impatience with delays.",
+      "First contact will be more successful when introduced by a mutual acquaintance.",
+      "When doing a presentation, keep it short, and expect lots of interruptions and questions."
+    ],
+    "social": [
+      "During a conversation, a lot of touching of the arms and back is common.",
+      "Avoid the topics of politics, poverty, religion and Argentina.",
+      "Openness and friendliness are expected.",
+      "The line between personal and professional relations is blurry.",
+      "When dining, whoever invited pays, however, the other party is expected to offer to pay."
+    ],
+    "refs": [
+      "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-brazil/",
+      "https://santandertrade.com/en/portal/establish-overseas/brazil/business-practices"
+    ]
+  },{
+    "name": "Canada",
+    "values": [39, 80, 52, 48, 36, 68],
+    "summary": [
+      "Originally hierarchical.",
+      "Be 5 to 10 min early to meetings, punctuality is highly valued.",
+      "Canadians are politically correct and diplomatic."
+    ],
+    "organisational": [
+      "Canada is traditionally hierarchical, however, flattened hierarchy is gaining ground.",
+      "Managers are in charge of final decisions.",
+      "Personal relationship is not necessary when doing business.",
+      "Canada is bilingual in French and English.",
+      "It is considered rude to speak in a foreign language in the presence of other people who do not understand what is being said."
+    ],
+    "meetings": [
+      "Be 5 to 10 min early to meetings, punctuality is highly valued.",
+      "Meetings tend to be formal.",
+      "Presentations should be short and clear, it is important to show facts and figures.",
+      "Communication is indirect, Canadians are politically correct. "
+    ],
+    "social": [
+      "Dress code is conservative, well-dressed appearance.",
+      "During lunches and dinners, talk is more formal, but business can still be done.",
+      "Do not start eating before everyone at the table has been served.",
+      "Canadians feel more comfortable talking when they can look you in the eyes.",
+      "Popular small talk topic is sports: hockey, football, baseball etc."
+    ],
+    "refs": [
+      "https://santandertrade.com/en/portal/establish-overseas/canada/business-practices",
+      "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-canada/",
+      "https://www.monster.ca/career-advice/article/canadian-business-culture"
+    ]
+  },{
     "name": "United States of America",
+    "values": [40, 91, 62, 46, 26, 68],
     "summary": [
       "American business culture is efficiency-oriented and money-driven. ",
-      " begin meetings with small talk on a light subject (weather, travel conditions, sports, e.g.). ",
-      " and after small talk, Americans get straight to business, even when the meetings start with a disagreement. "
+      "Begin meetings with small talk on a light subject (weather, travel conditions, sports, e.g.). ",
+      " After small talk, Americans get straight to business, even when the meetings start with a disagreement. "
     ],
     "organisational": [
       "American business culture is efficiency-oriented and money-driven. The culture of the country is based on the belief that it is hard word that drives success, not status or age. ",
@@ -25,13 +88,19 @@
       "Golf is a very popular sport, especially amongst business executives. Golf is normally a venue for business deals. ",
       "Unlike other cultures, it’s perfectly acceptable to refuse food or drink. ",
       "Business meetings that include lunch or dinner are not very common. "
+    ],
+    "refs": [
+      "https://santandertrade.com/en/portal/establish-overseas/united-states/business-practices",
+      "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-the-usa/",
+      "https://www.countrynavigator.com/blog/american-business-etiquette/"
     ]
   },{
     "name": "United Kingdom",
+    "values": [35, 89, 66, 35, 51, 69],
     "summary": [
-      "The British are known for their “tongue-in-cheek” and ironic humour",
-      " business culture is less hierarchical, and managers keep a marginal power distance",
-      " and requests are usually politely formulated, however managers’ suggestions should be followed as firm orders."
+      "The British are known for their “tongue-in-cheek” and ironic humour.",
+      "Business culture is less hierarchical, and managers keep a marginal power distance.",
+      "Requests are usually politely formulated, however managers’ suggestions should be followed as firm orders."
     ],
     "organisational": [
       "The business culture is less hierarchical than most countries in mainland Europe, as managers keep a marginal power distance. ",
@@ -52,13 +121,19 @@
       "You may be invited to meetings at pub lunches or over dinner. In these settings, the host who offered the invitation pays the bill. ",
       "You should not be offended when people address you with a seemingly overfamiliar name such as “love”, “pet”, “mate”, or “darling” – these terms vary across the UK and they have no deep or hidden meaning. ",
       "Avoid explicit gestures and physical contact such as backslapping or hugging and maintain a sufficient distance as not to invade the personal space of anyone around you. "
+    ],
+    "refs": [
+      "https://santandertrade.com/en/portal/establish-overseas/united-kingdom/business-practices",
+      "https://culturalatlas.sbs.com.au/british-culture/british-culture-business-culture#british-culture-business-culture",
+      "https://businessculture.org/northern-europe/united-kingdom-business-culture/business-communication/"
     ]
   },{
     "name": "Germany",
+    "values": [35, 67, 66, 65, 83, 40],
     "summary": [
-      "Germans are very formal, heavily regulated and extremely bureaucratic",
-      " punctuality is extremely important",
-      " and germans are direct to the point of bluntness."
+      "Germans are very formal, heavily regulated and extremely bureaucratic.",
+      "Punctuality is extremely important.",
+      "Germans are direct to the point of bluntness."
     ],
     "organisational": [
       "Germany is heavily regulated and extremely bureaucratic. ",
@@ -82,6 +157,12 @@
       "When invited to a German home, it is appropriate to bring a gift of flowers, wine, chocolates or a small gift that represents your home country or region. ",
       "As a group, Germans are suspicious of hyperbole, promises that sound too good to be true, or displays of emotion. ",
       "Germans will be direct to the point of bluntness. "
+    ],
+    "refs": [
+      "https://santandertrade.com/en/portal/establish-overseas/germany/business-practices",
+      "https://businessculture.org/western-europe/business-culture-in-germany/business-etiquette-in-germany/",
+      "https://commisceo-global.com/resources/country-guides/germany-guide",
+      "https://www.commisceo-global.com/resources/management-guides/germany-management-guide"
     ]
   }
   ]
