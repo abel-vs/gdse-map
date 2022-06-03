@@ -1,12 +1,17 @@
 import React from "react";
 import SpiderGraph from "../components/SpiderGraph";
 import { Row, Col } from "react-bootstrap"
+import styles from "./hofstede.module.css"
 
 function Ref() {
     return (
         <div className="content">
             <Row>
                 <Col>
+                    <SpiderGraph />
+                </Col>
+                <Col>
+                    <div className={styles.scrollable}>
                     <h1>Hofstede Cultural Dimensions</h1>
                     <h2>Explanation</h2>
                     The Hofstede model contains six dimensions.
@@ -122,9 +127,15 @@ function Ref() {
                         <li>Avoid making jokes in formal settings, instead be professional.</li>
                         <li>Only express negativity about the world/a pessimistic worldview during informal meetings.</li>
                     </ul>
-                </Col>
-                <Col>
-                    <SpiderGraph />
+                    <div>
+                        <p>
+                            Graph data produced by: Hofstede Insights. (2022).
+                            <em>Compare countries</em>.
+                            Retrieved June 2, 2022, from
+                            <a href="https://www.hofstede-insights.com/fi/product/compare-countries/">https://www.hofstede-insights.com/fi/product/compare-countries/</a>
+                        </p>
+                    </div>
+                    </div>
                 </Col>
             </Row>
         </div>
