@@ -66,7 +66,7 @@
     "values": [54, 46, 95, 92, 88, 42],
     "summary": [
       "Japanese companies have strong hierarchical structures, it is expected that subordinates respect their superiors. ",
-      "Respect is shown by working hard, being on time and being polite. ",
+      "Respect is shown by working hard, being on time and being polite. Bowing is a part of this as well, but if you are not well versed in the details you can better stick to a respectful handshake. ",
       "The country is more conservative then many Western countries, this can be taken account in how you dress. "
     ],
     "organisational": [
@@ -80,11 +80,11 @@
       "People may wear surgical masks if they are not feeling well to avoid spreading any sickness. ",
       "Directness is not always appreciated, neither is being overly opinionated. ",
       "Bare shoulders are seen as provocative, it may be better to cover up for any physical or video meetings. ",
-      "Blowing your nose in public is no appreciated. ",
+      "Blowing your nose in public is no appreciated. "
     ],
     "social": [
       "Respect is an essential part of any social interaction, when in doubt be respectful.",
-      "Work dinners are very normal in Japan, these are seen as important parts of team bonding. ",
+      "Work dinners are very normal in Japan, these are seen as essential part of work. Missing them may be seen as disrespectful. ",
       "Initially it may be difficult to form a closer bond with your Japanese colleagues as they can be quite reserved. ",
       "Privacy is highly valued, be careful with asking questions related to someones private life. "
     ],
@@ -204,6 +204,45 @@
       "https://businessculture.org/western-europe/business-culture-in-germany/business-etiquette-in-germany/",
       "https://commisceo-global.com/resources/country-guides/germany-guide",
       "https://www.commisceo-global.com/resources/management-guides/germany-management-guide"
+    ]
+  }, {
+    "name": "South Korea",
+    "values": [60, 18, 39, 85, 100, 29],
+    "summary": [
+      "In Korean culture it is very important to ensure harmony. This may mean that a colleague will prefer not to mention some bad news in order to preserve the harmony.",
+      "Koreans value respect towards superiors. This may pertain to a direct supervisor within your organisation or simply someone who is older then you. In both cases it is important to show respect. ",
+      "In general it is better to follow the lead of your Korean colleagues, instead of trying to initiate a lot of conversation and interaction yourself. At least until you are more comfortable as a group. "
+    ],
+    "organisational": [
+      "Korea, similar to other Asian countries, often has a strong hierarchical structure in their companies. It is important to not publicly criticize a supervisor. ",
+      "Employees are expected to work hard, and the work/life balance of an average Korean is more favored towards the former. ",
+      "In business Koreans place quite some value on having a good relationship with their business partners. ",
+      "The business Korean world is still quite dominated by men, and women may be expected to behave more feminine then in a average Western country. "
+    ],
+    "meetings": [
+      "Bare shoulders are seen as provocative, it may be better to cover up for any physical or video meetings. ",
+      "Koreans may wear masks due to not feeling well or due to bad air quality. ",
+      "Don't sign your name with a red pen, as this is associated with death. ",
+      "Koreans are respectful in their language as well, if in doubt it is best to address your colleagues by their last name (which is the first part of their Korean name) preceded by either Mister or Miss."
+
+    ],
+    "social": [
+      "There is a mandatory military service for Korean men of roughly 2 years that has to be completed before turning 30. ",
+      "When drinking alcohol, look away from the table. It is considered to be impolite to drink while looking at someone. ",
+      "When eating or drinking out, do not fill up your own glass. Instead let someone else pour your drink and then return the favor. ",
+      "Always use two hands when receiving anything important such as a business card, this shows respect. ",
+      "There is quite a high value placed on looks in South Korea. ",
+      "Work dinners are very normal in Korea, these are seen as essential part of work. Missing them may be seen as disrespectful."
+
+    ],
+    "refs": [
+      "https://www.mma.go.kr/eng/contents.do?mc=mma0000839",
+      "http://www.jimsjournal.org/21%20Choong%20Y.%20Lee.pdf",
+      "https://www.expatarrivals.com/asia-pacific/south-korea/culture-shock-south-korea",
+      "https://www.madimonde.com/blog/the-10-biggest-culture-shocks-for-expats-and-tourists-in-south-korea",
+      "https://asialinkbusiness.com.au/republic-of-korea/conducting-business-in-korea/korean-business-culture-and-etiquette?doNothing=1"
+
+
     ]
   }
   ]
