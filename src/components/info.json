@@ -1,335 +1,415 @@
 {
-  "countries": [{
-    "name": "Australia",
-    "values": [38, 90, 61, 51, 21, 71],
-    "summary": [
-      "Australians are very straightforward and do not need a personal relationship to do business.",
-      "They are modest and appreciate modesty in their colleagues.",
-      "You’re always welcome to give your opinion, regardless of age and hierarchy."
-    ],
-    "organisational": [
-      "Australians are very straightforward and do not need a personal relationship to do business.",
-      "Final decisions might take longer since team members are often consulted before the manager makes a decision.",
-      "Patience is very much appreciated."
-    ],
-    "meetings": [
-      "Tardiness reflects badly in a professional setting. Be one time or even a few minutes early.",
-      "Meetings should follow the agenda, however, expect the first meetings to primarily focus on getting to know each other and establishing trustworthiness.",
-      "You’re always welcome to give your opinion, regardless of age and hierarchy.",
-      "Australians find debates entertaining and will initiate them by making provocative statements, it is best to respond to them with humour. "
-    ],
-    "social": [
-      "Australians are not very formal, so expect a casual and relaxed greeting.",
-      "Table manners are the same as in Europe.",
-      "In a pub, each person is expected to pay for a round of drinks, avoiding your turn will create a bad impression.",
-      "Avoid the topic of religion, politics and sex, unless your Australian team member brings it up."
-    ],
-    "refs": [
-      "https://culturalatlas.sbs.com.au/australian-culture/australian-culture-business-culture",
-      "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-australia/"
-    ]
-  },{
-    "name": "Brazil",
-    "values": [69, 38, 49, 76, 44, 59],
-    "summary": [
-      "Brazilians do business with people, not with companies. Put time and effort into personal relations.",
-      "Brazilians are flexible with time, it is advisable to be on time and not to show frustration or impatience with delays.",
-      "Lots of physical contact whilst talking is common."
-    ],
-    "organisational": [
-      "The official language is Portuguese, present documents in Portuguese and English.",
-      "Brazil has a vertical hierarchical business structure, the highest-ranking member will make the decision.",
-      "Brazilians do business with people, not with companies. Put time and effort into personal relations."
-    ],
-    "meetings": [
-      "Brazilians are flexible with time, it is advisable to be on time and not to show frustration or impatience with delays.",
-      "First contact will be more successful when introduced by a mutual acquaintance.",
-      "When doing a presentation, keep it short, and expect lots of interruptions and questions."
-    ],
-    "social": [
-      "During a conversation, a lot of touching of the arms and back is common.",
-      "Avoid the topics of politics, poverty, religion and Argentina.",
-      "Openness and friendliness are expected.",
-      "The line between personal and professional relations is blurry.",
-      "When dining, whoever invited pays, however, the other party is expected to offer to pay."
-    ],
-    "refs": [
-      "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-brazil/",
-      "https://santandertrade.com/en/portal/establish-overseas/brazil/business-practices"
-    ]
-  },{
-    "name": "Canada",
-    "values": [39, 80, 52, 48, 36, 68],
-    "summary": [
-      "Originally hierarchical.",
-      "Be 5 to 10 min early to meetings, punctuality is highly valued.",
-      "Canadians are politically correct and diplomatic."
-    ],
-    "organisational": [
-      "Canada is traditionally hierarchical, however, flattened hierarchy is gaining ground.",
-      "Managers are in charge of final decisions.",
-      "Personal relationship is not necessary when doing business.",
-      "Canada is bilingual in French and English.",
-      "It is considered rude to speak in a foreign language in the presence of other people who do not understand what is being said."
-    ],
-    "meetings": [
-      "Be 5 to 10 min early to meetings, punctuality is highly valued.",
-      "Meetings tend to be formal.",
-      "Presentations should be short and clear, it is important to show facts and figures.",
-      "Communication is indirect, Canadians are politically correct. "
-    ],
-    "social": [
-      "Dress code is conservative, well-dressed appearance.",
-      "During lunches and dinners, talk is more formal, but business can still be done.",
-      "Do not start eating before everyone at the table has been served.",
-      "Canadians feel more comfortable talking when they can look you in the eyes.",
-      "Popular small talk topic is sports: hockey, football, baseball etc."
-    ],
-    "refs": [
-      "https://santandertrade.com/en/portal/establish-overseas/canada/business-practices",
-      "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-canada/",
-      "https://www.monster.ca/career-advice/article/canadian-business-culture"
-    ]
-  },{
-    "name": "Germany",
-    "values": [35, 67, 66, 65, 83, 40],
-    "summary": [
-      "Germans are very formal, heavily regulated and extremely bureaucratic.",
-      "Punctuality is extremely important.",
-      "Germans are direct to the point of bluntness."
-    ],
-    "organisational": [
-      "Germany is heavily regulated and extremely bureaucratic. ",
-      "A strict vertical hierarchy is established and respected, and the decision-making process is held at the top of the company. ",
-      "The Germans respect authority and subordinates rarely contradict or criticize their superiors publicly. ",
-      "Final decisions are translated into rigorous, comprehensive action steps that you can expect will be carried out to the letter. ",
-      "Germans like working in teams and collaborate quite well across hierarchical lines. The communication within the team is usually quite collegial. Praise should be given to the entire group as well as to individuals. ",
-      "Be careful not to be seen to be cutting corners or compromising rules and regulations when communicating with your German colleagues. "
-    ],
-    "meetings": [
-      "Meetings are generally formal.",
-      "Appointments are mandatory and should be made 1 to 2 weeks in advance. ",
-      "Punctuality is extremely important, and arriving at a meeting 15 minutes early is well thought of. ",
-      "In case of any delay, it is imperative to inform your colleagues in advance. ",
-      "Meetings adhere to strict agendas, including starting and ending times. ",
-      "It is considered extremely rude to cancel a meeting last minute. ",
-      "Business dress is understated, formal and conservative. Men should wear dark-coloured, conservative business suits. Women should wear either dark business suits or conservative dresses. "
-    ],
-    "social": [
-      "Gift-giving is uncommon in business meetings. If you’re visiting and considering a gift choose one that is small and of good quality, but not overly expensive. ",
-      "When invited to a German home, it is appropriate to bring a gift of flowers, wine, chocolates or a small gift that represents your home country or region. ",
-      "As a group, Germans are suspicious of hyperbole, promises that sound too good to be true, or displays of emotion. ",
-      "Germans will be direct to the point of bluntness. "
-    ],
-    "refs": [
-      "https://santandertrade.com/en/portal/establish-overseas/germany/business-practices",
-      "https://businessculture.org/western-europe/business-culture-in-germany/business-etiquette-in-germany/",
-      "https://commisceo-global.com/resources/country-guides/germany-guide",
-      "https://www.commisceo-global.com/resources/management-guides/germany-management-guide"
-    ]
-  }, {
-    "name": "Japan",
-    "values": [54, 46, 95, 92, 88, 42],
-    "summary": [
-      "Japanese companies have strong hierarchical structures, it is expected that subordinates respect their superiors. ",
-      "Respect is shown by working hard, being on time and being polite. Bowing is a part of this as well, but if you are not well versed in the details you can better stick to a respectful handshake. ",
-      "The country is more conservative then many Western countries, this can be taken account in how you dress. "
-    ],
-    "organisational": [
-      "Any rules/laws should always be obeyed. ",
-      "Punctuality is very important. ",
-      "Long work hours are the norm, and in many companies you are expected not to leave before your supervisor does. ",
-      "Related to the previous point, taking paid leave can be looked down upon. ",
-      "Business cards are seen as an extension of the person themselves so receive and treat them respectfully. "
-    ],
-    "meetings": [
-      "People may wear surgical masks if they are not feeling well to avoid spreading any sickness. ",
-      "Directness is not always appreciated, neither is being overly opinionated. ",
-      "Bare shoulders are seen as provocative, it may be better to cover up for any physical or video meetings. ",
-      "Blowing your nose in public is no appreciated. "
-    ],
-    "social": [
-      "Respect is an essential part of any social interaction, when in doubt be respectful.",
-      "Work dinners are very normal in Japan, these are seen as essential part of work. Missing them may be seen as disrespectful. ",
-      "Initially it may be difficult to form a closer bond with your Japanese colleagues as they can be quite reserved. ",
-      "Privacy is highly valued, be careful with asking questions related to someones private life. "
-    ],
-    "refs": [
-      "https://horizonunknown.com/experience-culture-shock-in-japan/",
-      "https://japanswitch.com/guide-to-japanese-culture-shock/#___Exploring_Culture_Shock_Out_and_About__",
-      "https://www.youtube.com/watch?v=bMNsioZRWzk",
-      "https://www.youtube.com/watch?v=v0L_c6SJCn0",
-      "https://www.youtube.com/watch?v=OBIPsYs9JnQ",
-      "https://www.youtube.com/watch?v=zhHPPL3ThKg",
-      "https://www.youtube.com/watch?v=YdiWTYkY1uY",
-      "https://www.youtube.com/watch?v=0GCuvcTI090",
-      "https://www.daytranslations.com/blog/japanese-business-culture/",
-      "https://www.americanexpress.com/en-us/business/trends-and-insights/articles/doing-business-in-japan-10-etiquette-rules-you-should-know/",
-      "https://www.businessinsider.com/6-things-to-know-about-business-in-japan-2014-6?international=true&r=US&IR=T",
-      "https://www.commisceo-global.com/blog/what-s-the-business-culture-like-in-japan"
-    ]
-  },{
-    "name": "South Korea",
-    "values": [60, 18, 39, 85, 100, 29],
-    "summary": [
-      "In Korean culture it is very important to ensure harmony. This may mean that a colleague will prefer not to mention some bad news in order to preserve the harmony.",
-      "Koreans value respect towards superiors. This may pertain to a direct supervisor within your organisation or simply someone who is older.",
-      "In general it is better to follow the lead of your Korean colleagues, instead of trying to initiate a lot of conversation and interaction yourself. At least until you are more comfortable as a group. "
-    ],
-    "organisational": [
-      "Korea, similar to other Asian countries, often has a strong hierarchical structure in their companies. It is important to not publicly criticize a supervisor. ",
-      "Employees are expected to work hard, and the work/life balance of an average Korean is more favored towards the former. ",
-      "In business Koreans place quite some value on having a good relationship with their business partners. ",
-      "The business Korean world is still quite dominated by men, and women may be expected to behave more feminine then in a average Western country. "
-    ],
-    "meetings": [
-      "Bare shoulders are seen as provocative, it may be better to cover up for any physical or video meetings. ",
-      "Koreans may wear masks due to not feeling well or due to bad air quality. ",
-      "Don't sign your name with a red pen, as this is associated with death. ",
-      "Koreans are respectful in their language as well, if in doubt it is best to address your colleagues by their last name (which is the first part of their Korean name) preceded by either Mister or Miss."
-    ],
-    "social": [
-      "There is a mandatory military service for Korean men of roughly 2 years that has to be completed before turning 30. ",
-      "When drinking alcohol, look away from the table. It is considered to be impolite to drink while looking at someone. ",
-      "When eating or drinking out, do not fill up your own glass. Instead let someone else pour your drink and then return the favor. ",
-      "Always use two hands when receiving anything important such as a business card, this shows respect. ",
-      "There is quite a high value placed on looks in South Korea. ",
-      "Work dinners are very normal in Korea, these are seen as essential part of work. Missing them may be seen as disrespectful."
-    ],
-    "refs": [
-      "https://www.mma.go.kr/eng/contents.do?mc=mma0000839",
-      "http://www.jimsjournal.org/21%20Choong%20Y.%20Lee.pdf",
-      "https://www.expatarrivals.com/asia-pacific/south-korea/culture-shock-south-korea",
-      "https://www.madimonde.com/blog/the-10-biggest-culture-shocks-for-expats-and-tourists-in-south-korea",
-      "https://asialinkbusiness.com.au/republic-of-korea/conducting-business-in-korea/korean-business-culture-and-etiquette?doNothing=1"
-    ]
-  }, {
-    "name": "Spain",
-    "values": [57, 51, 42, 86, 48, 44],
-    "summary": [
-      "It is good to remember that almost the entity of Spain is Catholic to varying degrees. ",
-      "People in Spain are taught from a young age to respect their elders, although not as strict as in some Asian countries it still good to be respectful to those of higher stage or older age then you. ",
-      "The Spanish tend to be quite risk averse, often preferring to stay in a not great partnership for example to avoid risk. "
-    ],
-    "organisational": [
-      "Due to historical events, the Spanish tend to have a degree of distrust with regards to their own government. This can sometimes be seen in a general lack of reference for the law. ",
-      "Related to the previous point, there is also a large grey economy, which concerns any labour done outside of the rules of law. ",
-      "Almost everywhere in Spain, businesses will adhere to a siesta between 2 and 5 p.m. People will eat a warm lunch in this time and in some regions also take a quick cat nap. ",
-      "Long-term job security is highly valued. ",
-      "Punctuality is not very highly valued. "
-    ],
-    "meetings": [
-      "Meetings may be a bit less to the point, and of more a meandering nature, this can help with getting to know each other. ",
-      "Team work is highly valued, so expect a lot of collaboration during meetings. ",
-      "There may be a focus on more short term goals that show more immediate results. "
-    ],
-    "social": [
-      "Any small confrontation may escalate easily. ",
-      "In many places in Spain, late night tapas are part of the food culture. ",
-      "Physical contact is quite normal, so don't be scared if a colleague comes in for a hug after a work dinner out. "
-    ],
-    "refs": [
-      "https://link-springer-com.tudelft.idm.oclc.org/content/pdf/10.1023/A:1006253604449.pdf",
-      "https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=1428&context=honorsprojects",
-      "https://www-jstor-org.tudelft.idm.oclc.org/stable/pdf/40397356.pdf?casa_token=Gl6NRNl8jYsAAAAA:SEDruwdLrfMGLG-ZkJnOrJk07AiMXHQvK5wvY2WlMf9Qi6TmRzWjpkzk6AUd52cnwv1O53S96DlunoJXljqVyhCK9LtVnfxIe_SX6rTzQZT1rIjda862"
-    ]
-  },{
-    "name": "Netherlands",
-    "values": [38, 80, 14, 53, 67, 68],
-    "summary": [
-      "Punctuality is important. If you are running late, call your team members to let them know and give them the reason why you’re being late. ",
-      "Business relationships are formal. Business is strictly professional and does not hold a relation to one’s personal life.",
-      "Inspired by “the Polder Model” - the Dutch have a slow decision-making process where all parties have to be heard, and everyone is entitled to an opinion."
-    ],
-    "organisational": [
-      "Business relationships are formal. Business is strictly professional and does not hold a relation to one’s personal life.",
-      "In the Netherlands, hierarchy exists to serve organisational effectiveness. Managers are not necessarily seen as superiors, but rather as employees with different responsibilities.",
-      "Inspired by “the Polder Model” - the Dutch have a slow decision-making process where all parties have to be heard, and everyone is entitled to an opinion."
-    ],
-    "meetings": [
-      "Punctuality is important. If you are running late, call your team members to let them know and give them the reason why you’re being late.",
-      "A small amount of small talk may begin the meeting, but expect the Dutch to turn to business very quickly.",
-      "The Dutch are very direct, do not take offence to this.",
-      "When entering a meeting room with new people, shake everyone's hand and introduce yourself with your first name."
-    ],
-    "social": [
-      "The Dutch sometimes prefer a lunch meeting as opposed to meetings in the office, since lunch is a necessity anyway.",
-      "After-hours drinks are not appropriate for detailed discussions, since the Dutch want to go home. It is a nice way to build a personal connection with your colleagues.",
-      "Taking colleagues out for dinner is a private event, and will therefore rarely happen in Dutch business culture."
-    ],
-    "refs": [
-      "https://culturalatlas.sbs.com.au/dutch-culture/dutch-culture-business-culture",
-      "https://businessculture.org/western-europe/business-culture-in-netherlands/business-etiquette-in-netherlands/",
-      "https://www.expatica.com/nl/working/employment-basics/dutch-business-culture-102490/"
-    ]
-  },{
-    "name": "United States of America",
-    "values": [40, 91, 62, 46, 26, 68],
-    "summary": [
-      "American business culture is efficiency-oriented and money-driven. ",
-      "Begin meetings with small talk on a light subject (weather, travel conditions, sports, e.g.). ",
-      "After small talk, Americans get straight to business, even when the meetings start with a disagreement. "
-    ],
-    "organisational": [
-      "American business culture is efficiency-oriented and money-driven. The culture of the country is based on the belief that it is hard word that drives success, not status or age. ",
-      "The hierarchical structure varies greatly depending on the region or company history. It is advised to learn the rank and titles of all the members you engage with inside an organization. ",
-      "Final decisions are usually made quickly by a person with chief authority, but anyone is welcome to express their opinion in meetings or during the decision making process. ",
-      "In general, it is not necessary to develop a personal relationship to establish a lasting and successful business relationship. "
-    ],
-    "meetings": [
-      "Punctuality and time management are fundamental values in US business culture, both in terms of time to start the meeting and time to terminate it. ",
-      "In situations where you know you will be late, even by a few minutes, you should tell your American partner about your delay and offer to postpone the meeting. ",
-      "During discussions, it is common to have small talk on a light subject (think weather, travel conditions, sports e.g) before talking business to create a comfortable environment. ",
-      "After small talk, Americans get straight to the point, even when expressing disagreement. ",
-      "Interaction, participation and concentration are important to prove your preparation and interest. ",
-      "Americans are rather uncomfortable with silence, which is usually avoided in business meetings. "
-    ],
-    "social": [
-      "Generally, Americans like to laugh and enjoy talking with people with a sense of humor. Jokes are usually welcome. ",
-      "Golf is a very popular sport, especially amongst business executives. Golf is normally a venue for business deals. ",
-      "Unlike other cultures, it’s perfectly acceptable to refuse food or drink. ",
-      "Business meetings that include lunch or dinner are not very common. "
-    ],
-    "refs": [
-      "https://santandertrade.com/en/portal/establish-overseas/united-states/business-practices",
-      "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-the-usa/",
-      "https://www.countrynavigator.com/blog/american-business-etiquette/"
-    ]
-  },{
-    "name": "United Kingdom",
-    "values": [35, 89, 66, 35, 51, 69],
-    "summary": [
-      "The British are known for their “tongue-in-cheek” and ironic humour.",
-      "Business culture is less hierarchical, and managers keep a marginal power distance.",
-      "Requests are usually politely formulated, however managers’ suggestions should be followed as firm orders."
-    ],
-    "organisational": [
-      "The business culture is less hierarchical than most countries in mainland Europe, as managers keep a marginal power distance. ",
-      "Decisions are usually made from the top-down, nevertheless, they are not imposed abruptly but rather presented as guidelines or suggestions to follow. ",
-      "The status of managers might be hard to detect as they try to have a consensus before directing others. ",
-      "Directions are hinted at and instructions are usually polite requests such as “Perhaps we should try..”, however, managers’ suggestions are to be followed as though they were given as firm orders. "
-    ],
-    "meetings": [
-      "The British are known for their “tongue-in-cheek” and ironic humour, which they may use when doing business. ",
-      "Make the appointment for your meeting a few days in advance, and indicate what its objectives are beforehand. ",
-      "Punctuality and time management are extremely important in the UK. It is important to arrive on time or even slightly early. ",
-      "Always give the impression that everything is well managed and under control. The British like to feel relaxed about business, no matter what the situation might be. ",
-      "The British generally do not like to rush and are unlikely to commit to anything immediately, so don’t expect final decisions to be made during the first meetings. ",
-      "Although meetings are often inconclusive, everyone who attended is expected to leave with a specific task. "
-    ],
-    "social": [
-      "A pub is often an intermediate place between work and socialization where colleagues can rest their professional pretences and bond in a non-hierarchical setting. ",
-      "You may be invited to meetings at pub lunches or over dinner. In these settings, the host who offered the invitation pays the bill. ",
-      "You should not be offended when people address you with a seemingly overfamiliar name such as “love”, “pet”, “mate”, or “darling” – these terms vary across the UK and they have no deep or hidden meaning. ",
-      "Avoid explicit gestures and physical contact such as backslapping or hugging and maintain a sufficient distance as not to invade the personal space of anyone around you. "
-    ],
-    "refs": [
-      "https://santandertrade.com/en/portal/establish-overseas/united-kingdom/business-practices",
-      "https://culturalatlas.sbs.com.au/british-culture/british-culture-business-culture#british-culture-business-culture",
-      "https://businessculture.org/northern-europe/united-kingdom-business-culture/business-communication/"
-    ]
-  }
-   {
+  "countries": [
+    {
+      "name": "Australia",
+      "values": [
+        38,
+        90,
+        61,
+        51,
+        21,
+        71
+      ],
+      "summary": [
+        "Australians are very straightforward and do not need a personal relationship to do business.",
+        "They are modest and appreciate modesty in their colleagues.",
+        "You’re always welcome to give your opinion, regardless of age and hierarchy."
+      ],
+      "organisational": [
+        "Australians are very straightforward and do not need a personal relationship to do business.",
+        "Final decisions might take longer since team members are often consulted before the manager makes a decision.",
+        "Patience is very much appreciated."
+      ],
+      "meetings": [
+        "Tardiness reflects badly in a professional setting. Be one time or even a few minutes early.",
+        "Meetings should follow the agenda, however, expect the first meetings to primarily focus on getting to know each other and establishing trustworthiness.",
+        "You’re always welcome to give your opinion, regardless of age and hierarchy.",
+        "Australians find debates entertaining and will initiate them by making provocative statements, it is best to respond to them with humour. "
+      ],
+      "social": [
+        "Australians are not very formal, so expect a casual and relaxed greeting.",
+        "Table manners are the same as in Europe.",
+        "In a pub, each person is expected to pay for a round of drinks, avoiding your turn will create a bad impression.",
+        "Avoid the topic of religion, politics and sex, unless your Australian team member brings it up."
+      ],
+      "refs": [
+        "https://culturalatlas.sbs.com.au/australian-culture/australian-culture-business-culture",
+        "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-australia/"
+      ]
+    },
+    {
+      "name": "Brazil",
+      "values": [
+        69,
+        38,
+        49,
+        76,
+        44,
+        59
+      ],
+      "summary": [
+        "Brazilians do business with people, not with companies. Put time and effort into personal relations.",
+        "Brazilians are flexible with time, it is advisable to be on time and not to show frustration or impatience with delays.",
+        "Lots of physical contact whilst talking is common."
+      ],
+      "organisational": [
+        "The official language is Portuguese, present documents in Portuguese and English.",
+        "Brazil has a vertical hierarchical business structure, the highest-ranking member will make the decision.",
+        "Brazilians do business with people, not with companies. Put time and effort into personal relations."
+      ],
+      "meetings": [
+        "Brazilians are flexible with time, it is advisable to be on time and not to show frustration or impatience with delays.",
+        "First contact will be more successful when introduced by a mutual acquaintance.",
+        "When doing a presentation, keep it short, and expect lots of interruptions and questions."
+      ],
+      "social": [
+        "During a conversation, a lot of touching of the arms and back is common.",
+        "Avoid the topics of politics, poverty, religion and Argentina.",
+        "Openness and friendliness are expected.",
+        "The line between personal and professional relations is blurry.",
+        "When dining, whoever invited pays, however, the other party is expected to offer to pay."
+      ],
+      "refs": [
+        "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-brazil/",
+        "https://santandertrade.com/en/portal/establish-overseas/brazil/business-practices"
+      ]
+    },
+    {
+      "name": "Canada",
+      "values": [
+        39,
+        80,
+        52,
+        48,
+        36,
+        68
+      ],
+      "summary": [
+        "Originally hierarchical.",
+        "Be 5 to 10 min early to meetings, punctuality is highly valued.",
+        "Canadians are politically correct and diplomatic."
+      ],
+      "organisational": [
+        "Canada is traditionally hierarchical, however, flattened hierarchy is gaining ground.",
+        "Managers are in charge of final decisions.",
+        "Personal relationship is not necessary when doing business.",
+        "Canada is bilingual in French and English.",
+        "It is considered rude to speak in a foreign language in the presence of other people who do not understand what is being said."
+      ],
+      "meetings": [
+        "Be 5 to 10 min early to meetings, punctuality is highly valued.",
+        "Meetings tend to be formal.",
+        "Presentations should be short and clear, it is important to show facts and figures.",
+        "Communication is indirect, Canadians are politically correct. "
+      ],
+      "social": [
+        "Dress code is conservative, well-dressed appearance.",
+        "During lunches and dinners, talk is more formal, but business can still be done.",
+        "Do not start eating before everyone at the table has been served.",
+        "Canadians feel more comfortable talking when they can look you in the eyes.",
+        "Popular small talk topic is sports: hockey, football, baseball etc."
+      ],
+      "refs": [
+        "https://santandertrade.com/en/portal/establish-overseas/canada/business-practices",
+        "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-canada/",
+        "https://www.monster.ca/career-advice/article/canadian-business-culture"
+      ]
+    },
+    {
+      "name": "Germany",
+      "values": [
+        35,
+        67,
+        66,
+        65,
+        83,
+        40
+      ],
+      "summary": [
+        "Germans are very formal, heavily regulated and extremely bureaucratic.",
+        "Punctuality is extremely important.",
+        "Germans are direct to the point of bluntness."
+      ],
+      "organisational": [
+        "Germany is heavily regulated and extremely bureaucratic. ",
+        "A strict vertical hierarchy is established and respected, and the decision-making process is held at the top of the company. ",
+        "The Germans respect authority and subordinates rarely contradict or criticize their superiors publicly. ",
+        "Final decisions are translated into rigorous, comprehensive action steps that you can expect will be carried out to the letter. ",
+        "Germans like working in teams and collaborate quite well across hierarchical lines. The communication within the team is usually quite collegial. Praise should be given to the entire group as well as to individuals. ",
+        "Be careful not to be seen to be cutting corners or compromising rules and regulations when communicating with your German colleagues. "
+      ],
+      "meetings": [
+        "Meetings are generally formal.",
+        "Appointments are mandatory and should be made 1 to 2 weeks in advance. ",
+        "Punctuality is extremely important, and arriving at a meeting 15 minutes early is well thought of. ",
+        "In case of any delay, it is imperative to inform your colleagues in advance. ",
+        "Meetings adhere to strict agendas, including starting and ending times. ",
+        "It is considered extremely rude to cancel a meeting last minute. ",
+        "Business dress is understated, formal and conservative. Men should wear dark-coloured, conservative business suits. Women should wear either dark business suits or conservative dresses. "
+      ],
+      "social": [
+        "Gift-giving is uncommon in business meetings. If you’re visiting and considering a gift choose one that is small and of good quality, but not overly expensive. ",
+        "When invited to a German home, it is appropriate to bring a gift of flowers, wine, chocolates or a small gift that represents your home country or region. ",
+        "As a group, Germans are suspicious of hyperbole, promises that sound too good to be true, or displays of emotion. ",
+        "Germans will be direct to the point of bluntness. "
+      ],
+      "refs": [
+        "https://santandertrade.com/en/portal/establish-overseas/germany/business-practices",
+        "https://businessculture.org/western-europe/business-culture-in-germany/business-etiquette-in-germany/",
+        "https://commisceo-global.com/resources/country-guides/germany-guide",
+        "https://www.commisceo-global.com/resources/management-guides/germany-management-guide"
+      ]
+    },
+    {
+      "name": "Japan",
+      "values": [
+        54,
+        46,
+        95,
+        92,
+        88,
+        42
+      ],
+      "summary": [
+        "Japanese companies have strong hierarchical structures, it is expected that subordinates respect their superiors. ",
+        "Respect is shown by working hard, being on time and being polite. Bowing is a part of this as well, but if you are not well versed in the details you can better stick to a respectful handshake. ",
+        "The country is more conservative then many Western countries, this can be taken account in how you dress. "
+      ],
+      "organisational": [
+        "Any rules/laws should always be obeyed. ",
+        "Punctuality is very important. ",
+        "Long work hours are the norm, and in many companies you are expected not to leave before your supervisor does. ",
+        "Related to the previous point, taking paid leave can be looked down upon. ",
+        "Business cards are seen as an extension of the person themselves so receive and treat them respectfully. "
+      ],
+      "meetings": [
+        "People may wear surgical masks if they are not feeling well to avoid spreading any sickness. ",
+        "Directness is not always appreciated, neither is being overly opinionated. ",
+        "Bare shoulders are seen as provocative, it may be better to cover up for any physical or video meetings. ",
+        "Blowing your nose in public is no appreciated. "
+      ],
+      "social": [
+        "Respect is an essential part of any social interaction, when in doubt be respectful.",
+        "Work dinners are very normal in Japan, these are seen as essential part of work. Missing them may be seen as disrespectful. ",
+        "Initially it may be difficult to form a closer bond with your Japanese colleagues as they can be quite reserved. ",
+        "Privacy is highly valued, be careful with asking questions related to someones private life. "
+      ],
+      "refs": [
+        "https://horizonunknown.com/experience-culture-shock-in-japan/",
+        "https://japanswitch.com/guide-to-japanese-culture-shock/#___Exploring_Culture_Shock_Out_and_About__",
+        "https://www.youtube.com/watch?v=bMNsioZRWzk",
+        "https://www.youtube.com/watch?v=v0L_c6SJCn0",
+        "https://www.youtube.com/watch?v=OBIPsYs9JnQ",
+        "https://www.youtube.com/watch?v=zhHPPL3ThKg",
+        "https://www.youtube.com/watch?v=YdiWTYkY1uY",
+        "https://www.youtube.com/watch?v=0GCuvcTI090",
+        "https://www.daytranslations.com/blog/japanese-business-culture/",
+        "https://www.americanexpress.com/en-us/business/trends-and-insights/articles/doing-business-in-japan-10-etiquette-rules-you-should-know/",
+        "https://www.businessinsider.com/6-things-to-know-about-business-in-japan-2014-6?international=true&r=US&IR=T",
+        "https://www.commisceo-global.com/blog/what-s-the-business-culture-like-in-japan"
+      ]
+    },
+    {
+      "name": "South Korea",
+      "values": [
+        60,
+        18,
+        39,
+        85,
+        100,
+        29
+      ],
+      "summary": [
+        "In Korean culture it is very important to ensure harmony. This may mean that a colleague will prefer not to mention some bad news in order to preserve the harmony.",
+        "Koreans value respect towards superiors. This may pertain to a direct supervisor within your organisation or simply someone who is older.",
+        "In general it is better to follow the lead of your Korean colleagues, instead of trying to initiate a lot of conversation and interaction yourself. At least until you are more comfortable as a group. "
+      ],
+      "organisational": [
+        "Korea, similar to other Asian countries, often has a strong hierarchical structure in their companies. It is important to not publicly criticize a supervisor. ",
+        "Employees are expected to work hard, and the work/life balance of an average Korean is more favored towards the former. ",
+        "In business Koreans place quite some value on having a good relationship with their business partners. ",
+        "The business Korean world is still quite dominated by men, and women may be expected to behave more feminine then in a average Western country. "
+      ],
+      "meetings": [
+        "Bare shoulders are seen as provocative, it may be better to cover up for any physical or video meetings. ",
+        "Koreans may wear masks due to not feeling well or due to bad air quality. ",
+        "Don't sign your name with a red pen, as this is associated with death. ",
+        "Koreans are respectful in their language as well, if in doubt it is best to address your colleagues by their last name (which is the first part of their Korean name) preceded by either Mister or Miss."
+      ],
+      "social": [
+        "There is a mandatory military service for Korean men of roughly 2 years that has to be completed before turning 30. ",
+        "When drinking alcohol, look away from the table. It is considered to be impolite to drink while looking at someone. ",
+        "When eating or drinking out, do not fill up your own glass. Instead let someone else pour your drink and then return the favor. ",
+        "Always use two hands when receiving anything important such as a business card, this shows respect. ",
+        "There is quite a high value placed on looks in South Korea. ",
+        "Work dinners are very normal in Korea, these are seen as essential part of work. Missing them may be seen as disrespectful."
+      ],
+      "refs": [
+        "https://www.mma.go.kr/eng/contents.do?mc=mma0000839",
+        "http://www.jimsjournal.org/21%20Choong%20Y.%20Lee.pdf",
+        "https://www.expatarrivals.com/asia-pacific/south-korea/culture-shock-south-korea",
+        "https://www.madimonde.com/blog/the-10-biggest-culture-shocks-for-expats-and-tourists-in-south-korea",
+        "https://asialinkbusiness.com.au/republic-of-korea/conducting-business-in-korea/korean-business-culture-and-etiquette?doNothing=1"
+      ]
+    },
+    {
+      "name": "Spain",
+      "values": [
+        57,
+        51,
+        42,
+        86,
+        48,
+        44
+      ],
+      "summary": [
+        "It is good to remember that almost the entity of Spain is Catholic to varying degrees. ",
+        "People in Spain are taught from a young age to respect their elders, although not as strict as in some Asian countries it still good to be respectful to those of higher stage or older age then you. ",
+        "The Spanish tend to be quite risk averse, often preferring to stay in a not great partnership for example to avoid risk. "
+      ],
+      "organisational": [
+        "Due to historical events, the Spanish tend to have a degree of distrust with regards to their own government. This can sometimes be seen in a general lack of reference for the law. ",
+        "Related to the previous point, there is also a large grey economy, which concerns any labour done outside of the rules of law. ",
+        "Almost everywhere in Spain, businesses will adhere to a siesta between 2 and 5 p.m. People will eat a warm lunch in this time and in some regions also take a quick cat nap. ",
+        "Long-term job security is highly valued. ",
+        "Punctuality is not very highly valued. "
+      ],
+      "meetings": [
+        "Meetings may be a bit less to the point, and of more a meandering nature, this can help with getting to know each other. ",
+        "Team work is highly valued, so expect a lot of collaboration during meetings. ",
+        "There may be a focus on more short term goals that show more immediate results. "
+      ],
+      "social": [
+        "Any small confrontation may escalate easily. ",
+        "In many places in Spain, late night tapas are part of the food culture. ",
+        "Physical contact is quite normal, so don't be scared if a colleague comes in for a hug after a work dinner out. "
+      ],
+      "refs": [
+        "https://link-springer-com.tudelft.idm.oclc.org/content/pdf/10.1023/A:1006253604449.pdf",
+        "https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=1428&context=honorsprojects",
+        "https://www-jstor-org.tudelft.idm.oclc.org/stable/pdf/40397356.pdf?casa_token=Gl6NRNl8jYsAAAAA:SEDruwdLrfMGLG-ZkJnOrJk07AiMXHQvK5wvY2WlMf9Qi6TmRzWjpkzk6AUd52cnwv1O53S96DlunoJXljqVyhCK9LtVnfxIe_SX6rTzQZT1rIjda862"
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "values": [
+        38,
+        80,
+        14,
+        53,
+        67,
+        68
+      ],
+      "summary": [
+        "Punctuality is important. If you are running late, call your team members to let them know and give them the reason why you’re being late. ",
+        "Business relationships are formal. Business is strictly professional and does not hold a relation to one’s personal life.",
+        "Inspired by “the Polder Model” - the Dutch have a slow decision-making process where all parties have to be heard, and everyone is entitled to an opinion."
+      ],
+      "organisational": [
+        "Business relationships are formal. Business is strictly professional and does not hold a relation to one’s personal life.",
+        "In the Netherlands, hierarchy exists to serve organisational effectiveness. Managers are not necessarily seen as superiors, but rather as employees with different responsibilities.",
+        "Inspired by “the Polder Model” - the Dutch have a slow decision-making process where all parties have to be heard, and everyone is entitled to an opinion."
+      ],
+      "meetings": [
+        "Punctuality is important. If you are running late, call your team members to let them know and give them the reason why you’re being late.",
+        "A small amount of small talk may begin the meeting, but expect the Dutch to turn to business very quickly.",
+        "The Dutch are very direct, do not take offence to this.",
+        "When entering a meeting room with new people, shake everyone's hand and introduce yourself with your first name."
+      ],
+      "social": [
+        "The Dutch sometimes prefer a lunch meeting as opposed to meetings in the office, since lunch is a necessity anyway.",
+        "After-hours drinks are not appropriate for detailed discussions, since the Dutch want to go home. It is a nice way to build a personal connection with your colleagues.",
+        "Taking colleagues out for dinner is a private event, and will therefore rarely happen in Dutch business culture."
+      ],
+      "refs": [
+        "https://culturalatlas.sbs.com.au/dutch-culture/dutch-culture-business-culture",
+        "https://businessculture.org/western-europe/business-culture-in-netherlands/business-etiquette-in-netherlands/",
+        "https://www.expatica.com/nl/working/employment-basics/dutch-business-culture-102490/"
+      ]
+    },
+    {
+      "name": "United States of America",
+      "values": [
+        40,
+        91,
+        62,
+        46,
+        26,
+        68
+      ],
+      "summary": [
+        "American business culture is efficiency-oriented and money-driven. ",
+        "Begin meetings with small talk on a light subject (weather, travel conditions, sports, e.g.). ",
+        "After small talk, Americans get straight to business, even when the meetings start with a disagreement. "
+      ],
+      "organisational": [
+        "American business culture is efficiency-oriented and money-driven. The culture of the country is based on the belief that it is hard word that drives success, not status or age. ",
+        "The hierarchical structure varies greatly depending on the region or company history. It is advised to learn the rank and titles of all the members you engage with inside an organization. ",
+        "Final decisions are usually made quickly by a person with chief authority, but anyone is welcome to express their opinion in meetings or during the decision making process. ",
+        "In general, it is not necessary to develop a personal relationship to establish a lasting and successful business relationship. "
+      ],
+      "meetings": [
+        "Punctuality and time management are fundamental values in US business culture, both in terms of time to start the meeting and time to terminate it. ",
+        "In situations where you know you will be late, even by a few minutes, you should tell your American partner about your delay and offer to postpone the meeting. ",
+        "During discussions, it is common to have small talk on a light subject (think weather, travel conditions, sports e.g) before talking business to create a comfortable environment. ",
+        "After small talk, Americans get straight to the point, even when expressing disagreement. ",
+        "Interaction, participation and concentration are important to prove your preparation and interest. ",
+        "Americans are rather uncomfortable with silence, which is usually avoided in business meetings. "
+      ],
+      "social": [
+        "Generally, Americans like to laugh and enjoy talking with people with a sense of humor. Jokes are usually welcome. ",
+        "Golf is a very popular sport, especially amongst business executives. Golf is normally a venue for business deals. ",
+        "Unlike other cultures, it’s perfectly acceptable to refuse food or drink. ",
+        "Business meetings that include lunch or dinner are not very common. "
+      ],
+      "refs": [
+        "https://santandertrade.com/en/portal/establish-overseas/united-states/business-practices",
+        "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-the-usa/",
+        "https://www.countrynavigator.com/blog/american-business-etiquette/"
+      ]
+    },
+    {
+      "name": "United Kingdom",
+      "values": [
+        35,
+        89,
+        66,
+        35,
+        51,
+        69
+      ],
+      "summary": [
+        "The British are known for their “tongue-in-cheek” and ironic humour.",
+        "Business culture is less hierarchical, and managers keep a marginal power distance.",
+        "Requests are usually politely formulated, however managers’ suggestions should be followed as firm orders."
+      ],
+      "organisational": [
+        "The business culture is less hierarchical than most countries in mainland Europe, as managers keep a marginal power distance. ",
+        "Decisions are usually made from the top-down, nevertheless, they are not imposed abruptly but rather presented as guidelines or suggestions to follow. ",
+        "The status of managers might be hard to detect as they try to have a consensus before directing others. ",
+        "Directions are hinted at and instructions are usually polite requests such as “Perhaps we should try..”, however, managers’ suggestions are to be followed as though they were given as firm orders. "
+      ],
+      "meetings": [
+        "The British are known for their “tongue-in-cheek” and ironic humour, which they may use when doing business. ",
+        "Make the appointment for your meeting a few days in advance, and indicate what its objectives are beforehand. ",
+        "Punctuality and time management are extremely important in the UK. It is important to arrive on time or even slightly early. ",
+        "Always give the impression that everything is well managed and under control. The British like to feel relaxed about business, no matter what the situation might be. ",
+        "The British generally do not like to rush and are unlikely to commit to anything immediately, so don’t expect final decisions to be made during the first meetings. ",
+        "Although meetings are often inconclusive, everyone who attended is expected to leave with a specific task. "
+      ],
+      "social": [
+        "A pub is often an intermediate place between work and socialization where colleagues can rest their professional pretences and bond in a non-hierarchical setting. ",
+        "You may be invited to meetings at pub lunches or over dinner. In these settings, the host who offered the invitation pays the bill. ",
+        "You should not be offended when people address you with a seemingly overfamiliar name such as “love”, “pet”, “mate”, or “darling” – these terms vary across the UK and they have no deep or hidden meaning. ",
+        "Avoid explicit gestures and physical contact such as backslapping or hugging and maintain a sufficient distance as not to invade the personal space of anyone around you. "
+      ],
+      "refs": [
+        "https://santandertrade.com/en/portal/establish-overseas/united-kingdom/business-practices",
+        "https://culturalatlas.sbs.com.au/british-culture/british-culture-business-culture#british-culture-business-culture",
+        "https://businessculture.org/northern-europe/united-kingdom-business-culture/business-communication/"
+      ]
+    },
+    {
       "name": "France",
       "values": [
         68,
