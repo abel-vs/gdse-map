@@ -91,6 +91,43 @@
       "https://www.monster.ca/career-advice/article/canadian-business-culture"
     ]
   },{
+    "name": "Germany",
+    "values": [35, 67, 66, 65, 83, 40],
+    "summary": [
+      "Germans are very formal, heavily regulated and extremely bureaucratic.",
+      "Punctuality is extremely important.",
+      "Germans are direct to the point of bluntness."
+    ],
+    "organisational": [
+      "Germany is heavily regulated and extremely bureaucratic. ",
+      "A strict vertical hierarchy is established and respected, and the decision-making process is held at the top of the company. ",
+      "The Germans respect authority and subordinates rarely contradict or criticize their superiors publicly. ",
+      "Final decisions are translated into rigorous, comprehensive action steps that you can expect will be carried out to the letter. ",
+      "Germans like working in teams and collaborate quite well across hierarchical lines. The communication within the team is usually quite collegial. Praise should be given to the entire group as well as to individuals. ",
+      "Be careful not to be seen to be cutting corners or compromising rules and regulations when communicating with your German colleagues. "
+    ],
+    "meetings": [
+      "Meetings are generally formal.",
+      "Appointments are mandatory and should be made 1 to 2 weeks in advance. ",
+      "Punctuality is extremely important, and arriving at a meeting 15 minutes early is well thought of. ",
+      "In case of any delay, it is imperative to inform your colleagues in advance. ",
+      "Meetings adhere to strict agendas, including starting and ending times. ",
+      "It is considered extremely rude to cancel a meeting last minute. ",
+      "Business dress is understated, formal and conservative. Men should wear dark-coloured, conservative business suits. Women should wear either dark business suits or conservative dresses. "
+    ],
+    "social": [
+      "Gift-giving is uncommon in business meetings. If you’re visiting and considering a gift choose one that is small and of good quality, but not overly expensive. ",
+      "When invited to a German home, it is appropriate to bring a gift of flowers, wine, chocolates or a small gift that represents your home country or region. ",
+      "As a group, Germans are suspicious of hyperbole, promises that sound too good to be true, or displays of emotion. ",
+      "Germans will be direct to the point of bluntness. "
+    ],
+    "refs": [
+      "https://santandertrade.com/en/portal/establish-overseas/germany/business-practices",
+      "https://businessculture.org/western-europe/business-culture-in-germany/business-etiquette-in-germany/",
+      "https://commisceo-global.com/resources/country-guides/germany-guide",
+      "https://www.commisceo-global.com/resources/management-guides/germany-management-guide"
+    ]
+  }, {
     "name": "Japan",
     "values": [54, 46, 95, 92, 88, 42],
     "summary": [
@@ -132,43 +169,6 @@
       "https://www.commisceo-global.com/blog/what-s-the-business-culture-like-in-japan"
     ]
   },{
-    "name": "Germany",
-    "values": [35, 67, 66, 65, 83, 40],
-    "summary": [
-      "Germans are very formal, heavily regulated and extremely bureaucratic.",
-      "Punctuality is extremely important.",
-      "Germans are direct to the point of bluntness."
-    ],
-    "organisational": [
-      "Germany is heavily regulated and extremely bureaucratic. ",
-      "A strict vertical hierarchy is established and respected, and the decision-making process is held at the top of the company. ",
-      "The Germans respect authority and subordinates rarely contradict or criticize their superiors publicly. ",
-      "Final decisions are translated into rigorous, comprehensive action steps that you can expect will be carried out to the letter. ",
-      "Germans like working in teams and collaborate quite well across hierarchical lines. The communication within the team is usually quite collegial. Praise should be given to the entire group as well as to individuals. ",
-      "Be careful not to be seen to be cutting corners or compromising rules and regulations when communicating with your German colleagues. "
-    ],
-    "meetings": [
-      "Meetings are generally formal.",
-      "Appointments are mandatory and should be made 1 to 2 weeks in advance. ",
-      "Punctuality is extremely important, and arriving at a meeting 15 minutes early is well thought of. ",
-      "In case of any delay, it is imperative to inform your colleagues in advance. ",
-      "Meetings adhere to strict agendas, including starting and ending times. ",
-      "It is considered extremely rude to cancel a meeting last minute. ",
-      "Business dress is understated, formal and conservative. Men should wear dark-coloured, conservative business suits. Women should wear either dark business suits or conservative dresses. "
-    ],
-    "social": [
-      "Gift-giving is uncommon in business meetings. If you’re visiting and considering a gift choose one that is small and of good quality, but not overly expensive. ",
-      "When invited to a German home, it is appropriate to bring a gift of flowers, wine, chocolates or a small gift that represents your home country or region. ",
-      "As a group, Germans are suspicious of hyperbole, promises that sound too good to be true, or displays of emotion. ",
-      "Germans will be direct to the point of bluntness. "
-    ],
-    "refs": [
-      "https://santandertrade.com/en/portal/establish-overseas/germany/business-practices",
-      "https://businessculture.org/western-europe/business-culture-in-germany/business-etiquette-in-germany/",
-      "https://commisceo-global.com/resources/country-guides/germany-guide",
-      "https://www.commisceo-global.com/resources/management-guides/germany-management-guide"
-    ]
-  }, {
     "name": "South Korea",
     "values": [60, 18, 39, 85, 100, 29],
     "summary": [
