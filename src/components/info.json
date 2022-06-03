@@ -1,5 +1,34 @@
 {
   "countries": [{
+    "name": "Australia",
+    "values": [38, 90, 61, 51, 21, 71],
+    "summary": [
+      "Australians are very straightforward and do not need a personal relationship to do business.",
+      "They are modest and appreciate modesty in their colleagues.",
+      "You’re always welcome to give your opinion, regardless of age and hierarchy."
+    ],
+    "organisational": [
+      "Australians are very straightforward and do not need a personal relationship to do business.",
+      "Final decisions might take longer since team members are often consulted before the manager makes a decision.",
+      "Patience is very much appreciated."
+    ],
+    "meetings": [
+      "Tardiness reflects badly in a professional setting. Be one time or even a few minutes early.",
+      "Meetings should follow the agenda, however, expect the first meetings to primarily focus on getting to know each other and establishing trustworthiness.",
+      "You’re always welcome to give your opinion, regardless of age and hierarchy.",
+      "Australians find debates entertaining and will initiate them by making provocative statements, it is best to respond to them with humour. "
+    ],
+    "social": [
+      "Australians are not very formal, so expect a casual and relaxed greeting.",
+      "Table manners are the same as in Europe.",
+      "In a pub, each person is expected to pay for a round of drinks, avoiding your turn will create a bad impression.",
+      "Avoid the topic of religion, politics and sex, unless your Australian team member brings it up."
+    ],
+    "refs": [
+      "https://culturalatlas.sbs.com.au/australian-culture/australian-culture-business-culture",
+      "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-australia/"
+    ]
+  },{
     "name": "Brazil",
     "values": [69, 38, 49, 76, 44, 59],
     "summary": [
@@ -273,6 +302,35 @@
       "https://asialinkbusiness.com.au/republic-of-korea/conducting-business-in-korea/korean-business-culture-and-etiquette?doNothing=1"
 
 
+    ]
+  },{
+    "name": "Netherlands",
+    "values": [38, 80, 14, 53, 67, 68],
+    "summary": [
+      "Punctuality is important. If you are running late, call your team members to let them know and give them the reason why you’re being late. ",
+      "Business relationships are formal. Business is strictly professional and does not hold a relation to one’s personal life.",
+      "Inspired by “the Polder Model” - the Dutch have a slow decision-making process where all parties have to be heard, and everyone is entitled to an opinion."
+    ],
+    "organisational": [
+      "Business relationships are formal. Business is strictly professional and does not hold a relation to one’s personal life.",
+      "In the Netherlands, hierarchy exists to serve organisational effectiveness. Managers are not necessarily seen as superiors, but rather as employees with different responsibilities.",
+      "Inspired by “the Polder Model” - the Dutch have a slow decision-making process where all parties have to be heard, and everyone is entitled to an opinion."
+    ],
+    "meetings": [
+      "Punctuality is important. If you are running late, call your team members to let them know and give them the reason why you’re being late.",
+      "A small amount of small talk may begin the meeting, but expect the Dutch to turn to business very quickly.",
+      "The Dutch are very direct, do not take offence to this.",
+      "When entering a meeting room with new people, shake everyone's hand and introduce yourself with your first name."
+    ],
+    "social": [
+      "The Dutch sometimes prefer a lunch meeting as opposed to meetings in the office, since lunch is a necessity anyway.",
+      "After-hours drinks are not appropriate for detailed discussions, since the Dutch want to go home. It is a nice way to build a personal connection with your colleagues.",
+      "Taking colleagues out for dinner is a private event, and will therefore rarely happen in Dutch business culture."
+    ],
+    "refs": [
+      "https://culturalatlas.sbs.com.au/dutch-culture/dutch-culture-business-culture",
+      "https://businessculture.org/western-europe/business-culture-in-netherlands/business-etiquette-in-netherlands/",
+      "https://www.expatica.com/nl/working/employment-basics/dutch-business-culture-102490/"
     ]
   }
   ]
