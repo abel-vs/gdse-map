@@ -1,0 +1,8 @@
+.scrollable {
+    height: 89vh;
+    overflow: hidden;
+}
+
+.scrollable:hover {
+    overflow-y: scroll;
+}

@@ -84,31 +84,31 @@ const SpiderGraph = () => {
 };
     return (
         <>
-                <div className={styles.dropdowns}>
-                    <Dropdown>
-                        <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
-                            Choose country A
-                        </Dropdown.Toggle>
-                        <Dropdown.Menu variant="dark">
-                            {list.countries.map((x) =>
-                                <Dropdown.Item onClick={handleCountryA(x.name)} active={x.name === countryA}>{x.name}</Dropdown.Item>
-                            )}
-                        </Dropdown.Menu>
-                    </Dropdown>
-                    <Dropdown>
-                        <Dropdown.Toggle id="dropdown-button-dark-example2" variant="secondary">
-                            Choose country B
-                        </Dropdown.Toggle>
-                        <Dropdown.Menu variant="dark">
-                            {list.countries.map((x) =>
-                                <Dropdown.Item onClick={handleCountryB(x.name)} active={x.name === countryB}>{x.name}</Dropdown.Item>
-                            )}
-                        </Dropdown.Menu>
-                    </Dropdown>
-                </div>
-                <div className={styles.graph}>
-                    <Radar data={data} options={options}/>
-                </div>
+            <div className={styles.dropdowns}>
+                <Dropdown>
+                    <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
+                        Choose country A
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu variant="dark">
+                        {list.countries.map((x) =>
+                            <Dropdown.Item onClick={handleCountryA(x.name)} active={x.name === countryA}>{x.name}</Dropdown.Item>
+                        )}
+                    </Dropdown.Menu>
+                </Dropdown>
+                <Dropdown>
+                    <Dropdown.Toggle id="dropdown-button-dark-example2" variant="secondary">
+                        Choose country B
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu variant="dark">
+                        {list.countries.map((x) =>
+                            <Dropdown.Item onClick={handleCountryB(x.name)} active={x.name === countryB}>{x.name}</Dropdown.Item>
+                        )}
+                    </Dropdown.Menu>
+                </Dropdown>
+            </div>
+            <div className={styles.graph}>
+                <Radar data={data} options={options}/>
+            </div>
         </>
     )
 }
