@@ -436,6 +436,44 @@
         "https://businessculture.org/southern-europe/business-culture-in-italy/business-etiquette-in-italy/",
         "https://culturalatlas.sbs.com.au/italian-culture/italian-culture-business-culture#italian-culture-business-culture"
       ]
+    },
+    {
+      "name": "Mexico",
+      "values": [
+        81,
+        30,
+        69,
+        82,
+        0,
+        0
+      ],
+      "summary": [
+        "Mexicans are status-conscious.",
+        "Strong and deep relationships are fundamental to business agreements.",
+        "Meetings may stray from the proposed agenda."
+      ],
+      "organisational": [
+        "Hierarchical based on seniority",
+        "Business is very relationship-based, and a good or bad impression may override business objectives."
+      ],
+      "meetings": [
+        "Arrange meetings in advance and confirm the date and time several times in advance. Doing so conveys your eagerness to meet.",
+        "Start and finishing times are usually set as estimates. Arrive on time but expect that your Mexican counterpart may not be as punctual. ",
+        "Allow some time for small talk to precede any serious discussion of business. If it is the first time parties have met, this initial acquaintance may consume the whole meeting.",
+        "Meetings may not always follow the proposed agenda systematically. The outline of the meeting usually serves as a rough guideline while topics and issues may be addressed as they are mentioned.",
+        "Small conversations may start while others are talking.",
+        "People may become quite passionate and emotional during meetings."
+      ],
+      "social": [
+        "Mexicans are status conscious. Book engagements in settings that are reflective of one’s position and status. ",
+        "Do not address someone by their first name until they have invited you to do so.",
+        "In order to deepen a relationship, try to be as talkative and transparent with them as possible.",
+        "Try and present yourself as personably as possible. Mexicans tend to warm to working with individuals rather than ‘representatives’ of businesses."
+      ],
+      "refs": [
+        "https://www.worldbusinessculture.com/country-profiles/mexico/business-structures/",
+        "https://culturalatlas.sbs.com.au/mexican-culture/mexican-culture-business-culture "
+      ]
     }
   ]
 }
