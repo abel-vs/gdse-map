@@ -359,6 +359,46 @@
         "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-china/ ",
         "https://www.bradfordjacobs.com/countries/china-work-culture/ "
       ]
+    },
+    {
+      "name": "India",
+      "values": [
+        77,
+        48,
+        56,
+        40,
+        61,
+        0
+      ],
+      "summary": [
+        "Relationship-based business culture, use third-party introductions.",
+        "Focus on respect and hierarchy.",
+        "Indians tend to avoid confrontation and disagreements."
+      ],
+      "organisational": [
+        "Workplaces in India are hierarchical, based on age and position. ",
+        "There is an intention to complete the work on time; however they often don’t give early warning of problems. It’s better to check-up how the work is going and will it be ready on time.",
+        "Highest-ranking person makes the final decisions."
+      ],
+      "meetings": [
+        "People enter a meeting in order of importance, with the highest-ranking person arriving first and so on. The same goes for introductions.",
+        "Treat business cards with respect. Accept and give them with two hands or your right hand, watch it before carefully putting it away.",
+        "Take time to get to know your business partner, allowing for a casual conversation to begin a meeting.",
+        "Expect some meetings or discussions to be conducted over dinner or drinks.",
+        "Highest-ranking person makes the final decisions, if that person is not present there are more introductory talks.",
+        "Indian people are flexible when it comes to punctuality. Arriving at a meeting 15 minutes after the official starting time is not rare"
+      ],
+      "social": [
+        "The Indian dress-code is relatively casual.",
+        "Very relationship-based, third-party introductions are almost a necessity as Indians prefer to work with those whom they know and trust. ",
+        "It may be difficult to enter a friendly relationship with a person, but once entered, friends are treated as family.",
+        "In social situations among themselves, Indians are personal and informal. ",
+        "Indians are taught to minimize conflict and strive for harmony, they may stall or avoid you to eliminate direct confrontation."
+      ],
+      "refs": [
+        "https://culturalatlas.sbs.com.au/indian-culture/indian-culture-business-culture ",
+        "https://careerprofessor.works/work-culture-india/ "
+      ]
     }
   ]
 }
