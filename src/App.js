@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route }
   from 'react-router-dom';
 import Home from './pages';
-import About from './pages/about';
+import Collaboration from './pages/collaboration';
 import Map from './pages/map';
 import Ref from './pages/ref';
 import Hofstede from './pages/hofstede';
@@ -17,7 +17,7 @@ function App() {
       <NavBar/>
       <Routes>
         <Route exact path='/' element={<Home />} />
-        <Route exact path='/about' element={<About />} />
+        <Route exact path='/collaboration' element={<Collaboration />} />
         <Route exact path='/map' element={<Map/>} />
         <Route exact path='/references' element={<Ref/>} />
         <Route exact path='/hofstede' element={<Hofstede/>} />

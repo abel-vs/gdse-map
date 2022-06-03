@@ -27,7 +27,7 @@ const Home = () => {
                         Use the six defining dimensions to get a clear image on how two countries differ and how they are similar.
                     </div>
                     <div className='info'>
-                        <a href='/gdse-map/about' className="button">Learn about the challenges of GDSE </a>
+                        <a href='/gdse-map/collaboration' className="button">Learn about Cultural Collaboration </a>
                         <br/>
                         Learn some general tips about handling cultural differences and how to become a better communicator and team player in a distributed setting.
                     </div>

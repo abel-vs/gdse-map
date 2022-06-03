@@ -16,8 +16,8 @@ const menuData = [
         title: "Cultural Dimensions"
     },
     {
-        href: "/about",
-        title: "About"
+        href: "/collaboration",
+        title: "Cultural Collaboration"
     },
     {
         href: "/references",
