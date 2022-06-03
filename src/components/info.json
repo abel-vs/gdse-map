@@ -474,6 +474,46 @@
         "https://www.worldbusinessculture.com/country-profiles/mexico/business-structures/",
         "https://culturalatlas.sbs.com.au/mexican-culture/mexican-culture-business-culture "
       ]
+    },
+    {
+      "name": "Russia",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "summary": [
+        "Power is emphasized and used.",
+        "Make appointments well in advance",
+        "Strongly hierarchical with well defined task mandates."
+      ],
+      "organisational": [
+        "Strong hierarchy at all levels. There are clear mandates for all tasks.",
+        "A contract is not necessarily thought of as constantly binding unless it continues to be a mutually beneficial agreement for both parties.",
+        "Visible demonstrations of status.",
+        "Power is emphasized and used."
+      ],
+      "meetings": [
+        "You should make appointments well in advance and arrive punctually. ",
+        "Meetings may be canceled on short notice.",
+        "Be patient and expect meetings to run for a longer duration than scheduled.",
+        "There may be multiple interruptions to the flow of the meeting as people follow different tangents and discussions.",
+        "Follow up meetings with an email clarifying what you have understood to take place. ",
+        "Negotiations may take long as Russians tend to patiently wait out deadlocks."
+      ],
+      "social": [
+        "Russians are quite status conscious.",
+        "Talk to them as equals and do not come across as condescending. ",
+        "Going for drinks is a popular way to build relationships. ",
+        "Always dress formally for business occasions."
+      ],
+      "refs": [
+        "https://culturalatlas.sbs.com.au/russian-culture/russian-culture-business-culture ",
+        "https://businessculture.org/blog/2014/07/13/business-meeting-etiquette-in-russia/ "
+      ]
     }
   ]
 }
