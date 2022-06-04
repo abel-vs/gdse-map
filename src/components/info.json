@@ -116,6 +116,87 @@
       ]
     },
     {
+      "name": "China",
+      "values": [
+        80,
+        20,
+        66,
+        40,
+        118,
+        0
+      ],
+      "summary": [
+        "Strong focus on respect and hierarchy.",
+        "Business meals and entertainment as a way of relationship building.",
+        "Watch out for Chinese regulations, such as the ban on gift-giving."
+      ],
+      "organisational": [
+        "Workplaces in China are definitively hierarchical based on age and position, and everyone has a distinct place and role within their company. ",
+        "Chinese business is very relationship based. Take time to build up a good connection with your business partners.",
+        "The ‘996’ work schedule (working 6 days a week from 9am to 9pm) is an indication of a fierce working culture at Chinese tech companies. It is however more regulated nowadays.",
+        "China’s business language is Mandarin; taking an interpreter to a business meeting is advised"
+      ],
+      "meetings": [
+        "People enter a meeting in order of importance, the highest-ranking person arriving first, and so on. The same goes for introductions.",
+        "Regarding titles of courtesy, most people should be addressed with a title followed by their last name. ",
+        "Make sure that you are punctual. If you are late, be sure to offer an apology for your tardiness. Allow a 10-minute interval for others to arrive.",
+        "Business cards should be treated with respect, in Chinese culture it is indicative of the respect you will show the individual in business. Either use both hands or the right hand alone to receive a business car. Treat them as if they are gifts. A Chinese translation on one side will be appreciated.",
+        "Conservative suits. Bright colours of any kind are considered inadequate.",
+        "Chinese colleagues may applaud when you are introduced as a way of greeting you and showing approval. If so, it is appropriate to applaud back.",
+        "You are expected to greet everyone in the room individually, even if the group is large.",
+        "Allow a few moments of social conversation to pass before mentioning business.",
+        "Traditionally, the host will give a quick speech greeting everyone before discussing the topic of business."
+      ],
+      "social": [
+        "Handshakes are the standard, casual greeting. The grip tends to be lighter than the Western handshake and is also sustained for longer. ",
+        "Business dinners and entertainment play a central role in conducting business in China and are part of creating a harmonious relationship.",
+        "If you are invited to a business meal, wait to be seated, as there is a seating protocol based on hierarchy. ",
+        "Do not discuss business during the meal, unless the host brings it up.",
+        "Don’t give gifts, official policy considers it to be bribery and therefore illegal."
+      ],
+      "refs": [
+        "https://culturalatlas.sbs.com.au/chinese-culture/chinese-culture-business-culture",
+        "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-china/ ",
+        "https://www.bradfordjacobs.com/countries/china-work-culture/ "
+      ]
+    },
+    {
+      "name": "France",
+      "values": [
+        68,
+        71,
+        43,
+        86,
+        0,
+        0
+      ],
+      "summary": [
+        "French is the official and preferred language.",
+        "Strong separation between work and personal life.",
+        "Plan meetings at least two weeks in advance."
+      ],
+      "organisational": [
+        "No work on sundays (by law)",
+        "Organization typically hierarchical and centralized. Decisions are made at the top of the company. The boss of the company will be authoritative.",
+        "The typical working week in France is 35 hours.",
+        "Hard work is admired, but generally the French frown upon workaholism. "
+      ],
+      "meetings": [
+        "Meetings are usually arranged well in advance, with plenty of forewarning for all parties; around two weeks’ notice is expected.",
+        "Stay focused on the business reason for the meeting, avoid small talk and don’t stray into questions or revelations about private life",
+        "Formal attire, suit and tie for men,  smart dress pants or dresses for women."
+      ],
+      "social": [
+        "Greetings: Never hug a French person to say hi. They don’t hug, they’ll just lean in and give you a cheek tap on either side to greet you, say hi and bye. Cheek-kisses, known as “la bise”.",
+        "Politeness: There’s always a merci or s’il vous plait tacked on to any interaction at a store and people are addressed as madame or monsieur.",
+        "Most French do not like to discuss business during dinner. Dinner is considered to be more of a social occasion and a time to enjoy the food, drinks and discussions."
+      ],
+      "refs": [
+        "https://snippetsofparis.com/french-work-culture/ ",
+        "https://www.bradfordjacobs.com/countries/france-work-culture/ "
+      ]
+    },
+    {
       "name": "Germany",
       "values": [
         35,
@@ -158,6 +239,120 @@
         "https://businessculture.org/western-europe/business-culture-in-germany/business-etiquette-in-germany/",
         "https://commisceo-global.com/resources/country-guides/germany-guide",
         "https://www.commisceo-global.com/resources/management-guides/germany-management-guide"
+      ]
+    },
+    {
+      "name": "India",
+      "values": [
+        77,
+        48,
+        56,
+        40,
+        61,
+        0
+      ],
+      "summary": [
+        "Relationship-based business culture, use third-party introductions.",
+        "Focus on respect and hierarchy.",
+        "Indians tend to avoid confrontation and disagreements."
+      ],
+      "organisational": [
+        "Workplaces in India are hierarchical, based on age and position. ",
+        "There is an intention to complete the work on time; however they often don’t give early warning of problems. It’s better to check-up how the work is going and will it be ready on time.",
+        "Highest-ranking person makes the final decisions."
+      ],
+      "meetings": [
+        "People enter a meeting in order of importance, with the highest-ranking person arriving first and so on. The same goes for introductions.",
+        "Treat business cards with respect. Accept and give them with two hands or your right hand, watch it before carefully putting it away.",
+        "Take time to get to know your business partner, allowing for a casual conversation to begin a meeting.",
+        "Expect some meetings or discussions to be conducted over dinner or drinks.",
+        "Highest-ranking person makes the final decisions, if that person is not present there are more introductory talks.",
+        "Indian people are flexible when it comes to punctuality. Arriving at a meeting 15 minutes after the official starting time is not rare"
+      ],
+      "social": [
+        "The Indian dress-code is relatively casual.",
+        "Very relationship-based, third-party introductions are almost a necessity as Indians prefer to work with those whom they know and trust. ",
+        "It may be difficult to enter a friendly relationship with a person, but once entered, friends are treated as family.",
+        "In social situations among themselves, Indians are personal and informal. ",
+        "Indians are taught to minimize conflict and strive for harmony, they may stall or avoid you to eliminate direct confrontation."
+      ],
+      "refs": [
+        "https://culturalatlas.sbs.com.au/indian-culture/indian-culture-business-culture ",
+        "https://careerprofessor.works/work-culture-india/ "
+      ]
+    },
+    {
+      "name": "Indonesia",
+      "values": [
+        78,
+        14,
+        46,
+        48,
+        0,
+        0
+      ],
+      "summary": [
+        "Do not interrupt an Indonesian.",
+        "Hierarchical based on age and position.",
+        "Avoid direct confrontation."
+      ],
+      "organisational": [
+        "Hierarchical based on age and position. ",
+        "Leadership is paternalistic and the oldest person usually leads discussion"
+      ],
+      "meetings": [
+        "Arrive on time but consider that your Indonesian counterpart may be late to a meeting.",
+        "Consensus is sought from everyone before a decision is made in order to maintain harmony.",
+        "Greet everyone in the room individually with a handshake.",
+        "Greet people in order of their seniority in any professional setting",
+        "Receive and present business cards with respect. Give and take them with both hands, inspect it for a moment before putting it away.",
+        "First meetings are mainly for getting to know each other, business might not even be discussed."
+      ],
+      "social": [
+        "Do not interrupt an Indonesian. They will usually give you plenty of room to speak and often show a great amount of respect during conversation. ",
+        "Boisterous behaviour is seen negatively.",
+        "Show compassion and be personable, but do not be confrontational or let emotion get in the way of negotiations.",
+        "Wear suits or traditional shirts. Wearing a batik fabric is likely to be met with appreciation."
+      ],
+      "refs": [
+        "https://culturalatlas.sbs.com.au/indonesian-culture/indonesian-culture-business-culture"
+      ]
+    },
+    {
+      "name": "Italy",
+      "values": [
+        50,
+        76,
+        70,
+        75,
+        0,
+        0
+      ],
+      "summary": [
+        "Deep personal relationships.",
+        "Focus on hierarchy.",
+        "Meetings mainly for discussing and exchange of ideas."
+      ],
+      "organisational": [
+        "Hierarchy is important in Italian business culture. Status is often based on  age and position. ",
+        "Italians like to be flexible about business. It is common for people to bend rules and put different interpretations on regulations in order to get around business constraints. Mainly in bureaucratic gray areas.",
+        "Verbal agreements are generally adhered to on the basis of trust – breaking them can jeopardise business relationships."
+      ],
+      "meetings": [
+        "Be punctual to give a good impression, but do not always expect your Italian counterpart to do the same as timekeeping is looser.",
+        "Everyone – including those who hold lower statuses – is usually given the opportunity to speak during meetings",
+        "Credit for decisions is almost always given to the person of the highest status.",
+        "Decisions are not always reached during meetings as they often serve the purpose of exchanging ideas, hashing out details and hearing the perspectives of all who are involved."
+      ],
+      "social": [
+        "Expect personal questions about your family and personal life.",
+        "Italians can appear overly expressive. After heated arguments they quickly revert to being friendly and jovial.",
+        "Italians invest much time and effort in their relationships and getting to know those whom they work with.",
+        "Gift giving is not particularly common. When invited for a family lunch or dinner you can give small gifts to thank them for their hospitality."
+      ],
+      "refs": [
+        "https://businessculture.org/southern-europe/business-culture-in-italy/business-etiquette-in-italy/",
+        "https://culturalatlas.sbs.com.au/italian-culture/italian-culture-business-culture#italian-culture-business-culture"
       ]
     },
     {
@@ -207,6 +402,121 @@
         "https://www.americanexpress.com/en-us/business/trends-and-insights/articles/doing-business-in-japan-10-etiquette-rules-you-should-know/",
         "https://www.businessinsider.com/6-things-to-know-about-business-in-japan-2014-6?international=true&r=US&IR=T",
         "https://www.commisceo-global.com/blog/what-s-the-business-culture-like-in-japan"
+      ]
+    },
+    {
+      "name": "Mexico",
+      "values": [
+        81,
+        30,
+        69,
+        82,
+        0,
+        0
+      ],
+      "summary": [
+        "Mexicans are status-conscious.",
+        "Strong and deep relationships are fundamental to business agreements.",
+        "Meetings may stray from the proposed agenda."
+      ],
+      "organisational": [
+        "Hierarchical based on seniority",
+        "Business is very relationship-based, and a good or bad impression may override business objectives."
+      ],
+      "meetings": [
+        "Arrange meetings in advance and confirm the date and time several times in advance. Doing so conveys your eagerness to meet.",
+        "Start and finishing times are usually set as estimates. Arrive on time but expect that your Mexican counterpart may not be as punctual. ",
+        "Allow some time for small talk to precede any serious discussion of business. If it is the first time parties have met, this initial acquaintance may consume the whole meeting.",
+        "Meetings may not always follow the proposed agenda systematically. The outline of the meeting usually serves as a rough guideline while topics and issues may be addressed as they are mentioned.",
+        "Small conversations may start while others are talking.",
+        "People may become quite passionate and emotional during meetings."
+      ],
+      "social": [
+        "Mexicans are status conscious. Book engagements in settings that are reflective of one’s position and status. ",
+        "Do not address someone by their first name until they have invited you to do so.",
+        "In order to deepen a relationship, try to be as talkative and transparent with them as possible.",
+        "Try and present yourself as personably as possible. Mexicans tend to warm to working with individuals rather than ‘representatives’ of businesses."
+      ],
+      "refs": [
+        "https://www.worldbusinessculture.com/country-profiles/mexico/business-structures/",
+        "https://culturalatlas.sbs.com.au/mexican-culture/mexican-culture-business-culture "
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "values": [
+        38,
+        80,
+        14,
+        53,
+        67,
+        68
+      ],
+      "summary": [
+        "Punctuality is important. If you are running late, call your team members to let them know and give them the reason why you’re being late. ",
+        "Business relationships are formal. Business is strictly professional and does not hold a relation to one’s personal life.",
+        "Inspired by “the Polder Model” - the Dutch have a slow decision-making process where all parties have to be heard, and everyone is entitled to an opinion."
+      ],
+      "organisational": [
+        "Business relationships are formal. Business is strictly professional and does not hold a relation to one’s personal life.",
+        "In the Netherlands, hierarchy exists to serve organisational effectiveness. Managers are not necessarily seen as superiors, but rather as employees with different responsibilities.",
+        "Inspired by “the Polder Model” - the Dutch have a slow decision-making process where all parties have to be heard, and everyone is entitled to an opinion."
+      ],
+      "meetings": [
+        "Punctuality is important. If you are running late, call your team members to let them know and give them the reason why you’re being late.",
+        "A small amount of small talk may begin the meeting, but expect the Dutch to turn to business very quickly.",
+        "The Dutch are very direct, do not take offence to this.",
+        "When entering a meeting room with new people, shake everyone's hand and introduce yourself with your first name."
+      ],
+      "social": [
+        "The Dutch sometimes prefer a lunch meeting as opposed to meetings in the office, since lunch is a necessity anyway.",
+        "After-hours drinks are not appropriate for detailed discussions, since the Dutch want to go home. It is a nice way to build a personal connection with your colleagues.",
+        "Taking colleagues out for dinner is a private event, and will therefore rarely happen in Dutch business culture."
+      ],
+      "refs": [
+        "https://culturalatlas.sbs.com.au/dutch-culture/dutch-culture-business-culture",
+        "https://businessculture.org/western-europe/business-culture-in-netherlands/business-etiquette-in-netherlands/",
+        "https://www.expatica.com/nl/working/employment-basics/dutch-business-culture-102490/"
+      ]
+    },
+    {
+      "name": "Russia",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "summary": [
+        "Power is emphasized and used.",
+        "Make appointments well in advance",
+        "Strongly hierarchical with well defined task mandates."
+      ],
+      "organisational": [
+        "Strong hierarchy at all levels. There are clear mandates for all tasks.",
+        "A contract is not necessarily thought of as constantly binding unless it continues to be a mutually beneficial agreement for both parties.",
+        "Visible demonstrations of status.",
+        "Power is emphasized and used."
+      ],
+      "meetings": [
+        "You should make appointments well in advance and arrive punctually. ",
+        "Meetings may be canceled on short notice.",
+        "Be patient and expect meetings to run for a longer duration than scheduled.",
+        "There may be multiple interruptions to the flow of the meeting as people follow different tangents and discussions.",
+        "Follow up meetings with an email clarifying what you have understood to take place. ",
+        "Negotiations may take long as Russians tend to patiently wait out deadlocks."
+      ],
+      "social": [
+        "Russians are quite status conscious.",
+        "Talk to them as equals and do not come across as condescending. ",
+        "Going for drinks is a popular way to build relationships. ",
+        "Always dress formally for business occasions."
+      ],
+      "refs": [
+        "https://culturalatlas.sbs.com.au/russian-culture/russian-culture-business-culture ",
+        "https://businessculture.org/blog/2014/07/13/business-meeting-etiquette-in-russia/ "
       ]
     },
     {
@@ -291,43 +601,6 @@
       ]
     },
     {
-      "name": "Netherlands",
-      "values": [
-        38,
-        80,
-        14,
-        53,
-        67,
-        68
-      ],
-      "summary": [
-        "Punctuality is important. If you are running late, call your team members to let them know and give them the reason why you’re being late. ",
-        "Business relationships are formal. Business is strictly professional and does not hold a relation to one’s personal life.",
-        "Inspired by “the Polder Model” - the Dutch have a slow decision-making process where all parties have to be heard, and everyone is entitled to an opinion."
-      ],
-      "organisational": [
-        "Business relationships are formal. Business is strictly professional and does not hold a relation to one’s personal life.",
-        "In the Netherlands, hierarchy exists to serve organisational effectiveness. Managers are not necessarily seen as superiors, but rather as employees with different responsibilities.",
-        "Inspired by “the Polder Model” - the Dutch have a slow decision-making process where all parties have to be heard, and everyone is entitled to an opinion."
-      ],
-      "meetings": [
-        "Punctuality is important. If you are running late, call your team members to let them know and give them the reason why you’re being late.",
-        "A small amount of small talk may begin the meeting, but expect the Dutch to turn to business very quickly.",
-        "The Dutch are very direct, do not take offence to this.",
-        "When entering a meeting room with new people, shake everyone's hand and introduce yourself with your first name."
-      ],
-      "social": [
-        "The Dutch sometimes prefer a lunch meeting as opposed to meetings in the office, since lunch is a necessity anyway.",
-        "After-hours drinks are not appropriate for detailed discussions, since the Dutch want to go home. It is a nice way to build a personal connection with your colleagues.",
-        "Taking colleagues out for dinner is a private event, and will therefore rarely happen in Dutch business culture."
-      ],
-      "refs": [
-        "https://culturalatlas.sbs.com.au/dutch-culture/dutch-culture-business-culture",
-        "https://businessculture.org/western-europe/business-culture-in-netherlands/business-etiquette-in-netherlands/",
-        "https://www.expatica.com/nl/working/employment-basics/dutch-business-culture-102490/"
-      ]
-    },
-    {
       "name": "United States of America",
       "values": [
         40,
@@ -407,279 +680,6 @@
         "https://santandertrade.com/en/portal/establish-overseas/united-kingdom/business-practices",
         "https://culturalatlas.sbs.com.au/british-culture/british-culture-business-culture#british-culture-business-culture",
         "https://businessculture.org/northern-europe/united-kingdom-business-culture/business-communication/"
-      ]
-    },
-    {
-      "name": "France",
-      "values": [
-        68,
-        71,
-        43,
-        86,
-        0,
-        0
-      ],
-      "summary": [
-        "French is the official and preferred language.",
-        "Strong separation between work and personal life.",
-        "Plan meetings at least two weeks in advance."
-      ],
-      "organisational": [
-        "No work on sundays (by law)",
-        "Organization typically hierarchical and centralized. Decisions are made at the top of the company. The boss of the company will be authoritative.",
-        "The typical working week in France is 35 hours.",
-        "Hard work is admired, but generally the French frown upon workaholism. "
-      ],
-      "meetings": [
-        "Meetings are usually arranged well in advance, with plenty of forewarning for all parties; around two weeks’ notice is expected.",
-        "Stay focused on the business reason for the meeting, avoid small talk and don’t stray into questions or revelations about private life",
-        "Formal attire, suit and tie for men,  smart dress pants or dresses for women."
-      ],
-      "social": [
-        "Greetings: Never hug a French person to say hi. They don’t hug, they’ll just lean in and give you a cheek tap on either side to greet you, say hi and bye. Cheek-kisses, known as “la bise”.",
-        "Politeness: There’s always a merci or s’il vous plait tacked on to any interaction at a store and people are addressed as madame or monsieur.",
-        "Most French do not like to discuss business during dinner. Dinner is considered to be more of a social occasion and a time to enjoy the food, drinks and discussions."
-      ],
-      "refs": [
-        "https://snippetsofparis.com/french-work-culture/ ",
-        "https://www.bradfordjacobs.com/countries/france-work-culture/ "
-      ]
-    },
-    {
-      "name": "China",
-      "values": [
-        80,
-        20,
-        66,
-        40,
-        118,
-        0
-      ],
-      "summary": [
-        "Strong focus on respect and hierarchy.",
-        "Business meals and entertainment as a way of relationship building.",
-        "Watch out for Chinese regulations, such as the ban on gift-giving."
-      ],
-      "organisational": [
-        "Workplaces in China are definitively hierarchical based on age and position, and everyone has a distinct place and role within their company. ",
-        "Chinese business is very relationship based. Take time to build up a good connection with your business partners.",
-        "The ‘996’ work schedule (working 6 days a week from 9am to 9pm) is an indication of a fierce working culture at Chinese tech companies. It is however more regulated nowadays.",
-        "China’s business language is Mandarin; taking an interpreter to a business meeting is advised"
-      ],
-      "meetings": [
-        "People enter a meeting in order of importance, the highest-ranking person arriving first, and so on. The same goes for introductions.",
-        "Regarding titles of courtesy, most people should be addressed with a title followed by their last name. ",
-        "Make sure that you are punctual. If you are late, be sure to offer an apology for your tardiness. Allow a 10-minute interval for others to arrive.",
-        "Business cards should be treated with respect, in Chinese culture it is indicative of the respect you will show the individual in business. Either use both hands or the right hand alone to receive a business car. Treat them as if they are gifts. A Chinese translation on one side will be appreciated.",
-        "Conservative suits. Bright colours of any kind are considered inadequate.",
-        "Chinese colleagues may applaud when you are introduced as a way of greeting you and showing approval. If so, it is appropriate to applaud back.",
-        "You are expected to greet everyone in the room individually, even if the group is large.",
-        "Allow a few moments of social conversation to pass before mentioning business.",
-        "Traditionally, the host will give a quick speech greeting everyone before discussing the topic of business."
-      ],
-      "social": [
-        "Handshakes are the standard, casual greeting. The grip tends to be lighter than the Western handshake and is also sustained for longer. ",
-        "Business dinners and entertainment play a central role in conducting business in China and are part of creating a harmonious relationship.",
-        "If you are invited to a business meal, wait to be seated, as there is a seating protocol based on hierarchy. ",
-        "Do not discuss business during the meal, unless the host brings it up.",
-        "Don’t give gifts, official policy considers it to be bribery and therefore illegal."
-      ],
-      "refs": [
-        "https://culturalatlas.sbs.com.au/chinese-culture/chinese-culture-business-culture",
-        "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-china/ ",
-        "https://www.bradfordjacobs.com/countries/china-work-culture/ "
-      ]
-    },
-    {
-      "name": "India",
-      "values": [
-        77,
-        48,
-        56,
-        40,
-        61,
-        0
-      ],
-      "summary": [
-        "Relationship-based business culture, use third-party introductions.",
-        "Focus on respect and hierarchy.",
-        "Indians tend to avoid confrontation and disagreements."
-      ],
-      "organisational": [
-        "Workplaces in India are hierarchical, based on age and position. ",
-        "There is an intention to complete the work on time; however they often don’t give early warning of problems. It’s better to check-up how the work is going and will it be ready on time.",
-        "Highest-ranking person makes the final decisions."
-      ],
-      "meetings": [
-        "People enter a meeting in order of importance, with the highest-ranking person arriving first and so on. The same goes for introductions.",
-        "Treat business cards with respect. Accept and give them with two hands or your right hand, watch it before carefully putting it away.",
-        "Take time to get to know your business partner, allowing for a casual conversation to begin a meeting.",
-        "Expect some meetings or discussions to be conducted over dinner or drinks.",
-        "Highest-ranking person makes the final decisions, if that person is not present there are more introductory talks.",
-        "Indian people are flexible when it comes to punctuality. Arriving at a meeting 15 minutes after the official starting time is not rare"
-      ],
-      "social": [
-        "The Indian dress-code is relatively casual.",
-        "Very relationship-based, third-party introductions are almost a necessity as Indians prefer to work with those whom they know and trust. ",
-        "It may be difficult to enter a friendly relationship with a person, but once entered, friends are treated as family.",
-        "In social situations among themselves, Indians are personal and informal. ",
-        "Indians are taught to minimize conflict and strive for harmony, they may stall or avoid you to eliminate direct confrontation."
-      ],
-      "refs": [
-        "https://culturalatlas.sbs.com.au/indian-culture/indian-culture-business-culture ",
-        "https://careerprofessor.works/work-culture-india/ "
-      ]
-    },
-    {
-      "name": "Italy",
-      "values": [
-        50,
-        76,
-        70,
-        75,
-        0,
-        0
-      ],
-      "summary": [
-        "Deep personal relationships.",
-        "Focus on hierarchy.",
-        "Meetings mainly for discussing and exchange of ideas."
-      ],
-      "organisational": [
-        "Hierarchy is important in Italian business culture. Status is often based on  age and position. ",
-        "Italians like to be flexible about business. It is common for people to bend rules and put different interpretations on regulations in order to get around business constraints. Mainly in bureaucratic gray areas.",
-        "Verbal agreements are generally adhered to on the basis of trust – breaking them can jeopardise business relationships."
-      ],
-      "meetings": [
-        "Be punctual to give a good impression, but do not always expect your Italian counterpart to do the same as timekeeping is looser.",
-        "Everyone – including those who hold lower statuses – is usually given the opportunity to speak during meetings",
-        "Credit for decisions is almost always given to the person of the highest status.",
-        "Decisions are not always reached during meetings as they often serve the purpose of exchanging ideas, hashing out details and hearing the perspectives of all who are involved."
-      ],
-      "social": [
-        "Expect personal questions about your family and personal life.",
-        "Italians can appear overly expressive. After heated arguments they quickly revert to being friendly and jovial.",
-        "Italians invest much time and effort in their relationships and getting to know those whom they work with.",
-        "Gift giving is not particularly common. When invited for a family lunch or dinner you can give small gifts to thank them for their hospitality."
-      ],
-      "refs": [
-        "https://businessculture.org/southern-europe/business-culture-in-italy/business-etiquette-in-italy/",
-        "https://culturalatlas.sbs.com.au/italian-culture/italian-culture-business-culture#italian-culture-business-culture"
-      ]
-    },
-    {
-      "name": "Mexico",
-      "values": [
-        81,
-        30,
-        69,
-        82,
-        0,
-        0
-      ],
-      "summary": [
-        "Mexicans are status-conscious.",
-        "Strong and deep relationships are fundamental to business agreements.",
-        "Meetings may stray from the proposed agenda."
-      ],
-      "organisational": [
-        "Hierarchical based on seniority",
-        "Business is very relationship-based, and a good or bad impression may override business objectives."
-      ],
-      "meetings": [
-        "Arrange meetings in advance and confirm the date and time several times in advance. Doing so conveys your eagerness to meet.",
-        "Start and finishing times are usually set as estimates. Arrive on time but expect that your Mexican counterpart may not be as punctual. ",
-        "Allow some time for small talk to precede any serious discussion of business. If it is the first time parties have met, this initial acquaintance may consume the whole meeting.",
-        "Meetings may not always follow the proposed agenda systematically. The outline of the meeting usually serves as a rough guideline while topics and issues may be addressed as they are mentioned.",
-        "Small conversations may start while others are talking.",
-        "People may become quite passionate and emotional during meetings."
-      ],
-      "social": [
-        "Mexicans are status conscious. Book engagements in settings that are reflective of one’s position and status. ",
-        "Do not address someone by their first name until they have invited you to do so.",
-        "In order to deepen a relationship, try to be as talkative and transparent with them as possible.",
-        "Try and present yourself as personably as possible. Mexicans tend to warm to working with individuals rather than ‘representatives’ of businesses."
-      ],
-      "refs": [
-        "https://www.worldbusinessculture.com/country-profiles/mexico/business-structures/",
-        "https://culturalatlas.sbs.com.au/mexican-culture/mexican-culture-business-culture "
-      ]
-    },
-    {
-      "name": "Russia",
-      "values": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "summary": [
-        "Power is emphasized and used.",
-        "Make appointments well in advance",
-        "Strongly hierarchical with well defined task mandates."
-      ],
-      "organisational": [
-        "Strong hierarchy at all levels. There are clear mandates for all tasks.",
-        "A contract is not necessarily thought of as constantly binding unless it continues to be a mutually beneficial agreement for both parties.",
-        "Visible demonstrations of status.",
-        "Power is emphasized and used."
-      ],
-      "meetings": [
-        "You should make appointments well in advance and arrive punctually. ",
-        "Meetings may be canceled on short notice.",
-        "Be patient and expect meetings to run for a longer duration than scheduled.",
-        "There may be multiple interruptions to the flow of the meeting as people follow different tangents and discussions.",
-        "Follow up meetings with an email clarifying what you have understood to take place. ",
-        "Negotiations may take long as Russians tend to patiently wait out deadlocks."
-      ],
-      "social": [
-        "Russians are quite status conscious.",
-        "Talk to them as equals and do not come across as condescending. ",
-        "Going for drinks is a popular way to build relationships. ",
-        "Always dress formally for business occasions."
-      ],
-      "refs": [
-        "https://culturalatlas.sbs.com.au/russian-culture/russian-culture-business-culture ",
-        "https://businessculture.org/blog/2014/07/13/business-meeting-etiquette-in-russia/ "
-      ]
-    },
-    {
-      "name": "Indonesia",
-      "values": [
-        78,
-        14,
-        46,
-        48,
-        0,
-        0
-      ],
-      "summary": [
-        "Do not interrupt an Indonesian.",
-        "Hierarchical based on age and position.",
-        "Avoid direct confrontation."
-      ],
-      "organisational": [
-        "Hierarchical based on age and position. ",
-        "Leadership is paternalistic and the oldest person usually leads discussion"
-      ],
-      "meetings": [
-        "Arrive on time but consider that your Indonesian counterpart may be late to a meeting.",
-        "Consensus is sought from everyone before a decision is made in order to maintain harmony.",
-        "Greet everyone in the room individually with a handshake.",
-        "Greet people in order of their seniority in any professional setting",
-        "Receive and present business cards with respect. Give and take them with both hands, inspect it for a moment before putting it away.",
-        "First meetings are mainly for getting to know each other, business might not even be discussed."
-      ],
-      "social": [
-        "Do not interrupt an Indonesian. They will usually give you plenty of room to speak and often show a great amount of respect during conversation. ",
-        "Boisterous behaviour is seen negatively.",
-        "Show compassion and be personable, but do not be confrontational or let emotion get in the way of negotiations.",
-        "Wear suits or traditional shirts. Wearing a batik fabric is likely to be met with appreciation."
-      ],
-      "refs": [
-        "https://culturalatlas.sbs.com.au/indonesian-culture/indonesian-culture-business-culture"
       ]
     }
   ]
