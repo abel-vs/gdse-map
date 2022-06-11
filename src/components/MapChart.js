@@ -7,7 +7,6 @@ import {
 import list from "./info.json"
 import Popup from 'reactjs-popup';
 import { Button } from "react-bootstrap";
-import styles from './MapChart.module.css'
 import './MapChart.css'
 
 const geoUrl =
@@ -46,7 +45,7 @@ const getInfoById = (country) => {
     for (let i = 0; i < list.countries.length; i++) {
         // console.log(country);
         if (country === i) {
-            return <div>
+            return <div className="popup_text">
                 <h1>{list.countries[i].name}</h1>
                 <ul>
                     {list.countries[i].summary.map((x) =>
@@ -93,8 +92,8 @@ const MapChart = ({ setTooltipContent, setCountrySummary }) => {
     const handleShow = () => setShow(true);
     return (
         <>
-            <div className={styles.blue}>
-                <ComposableMap height={400} data-tip="" projectionConfig={{ scale: 140 }}>
+            <div>
+                <ComposableMap height={340} data-tip="" projectionConfig={{ scale: 129}}>
                     <Sphere stroke="#E4E5E6" strokeWidth={0.5} />
                     <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
                     <Geographies geography={geoUrl}>
@@ -149,10 +148,11 @@ const MapChart = ({ setTooltipContent, setCountrySummary }) => {
                     open={show}
                     closeOnDocumentClick
                     onClose={handleClose}
+                    lockScroll={true}
                 >
                     <div>
                         {getInfoById(country)}
-                        <div className={styles.center}>
+                        <div className='center'>
                             <Button variant="secondary" size="lg" onClick={handleClose}>
                                 Close
                             </Button>
